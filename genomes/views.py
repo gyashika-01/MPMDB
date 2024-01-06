@@ -1,5 +1,4 @@
 from django.views.generic import ListView
-from msilib.schema import ListView
 from django.shortcuts import render
 from django.db.models import Q
 from .models import med_genomes
