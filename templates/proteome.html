@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/en/5/56/Logo-jiit.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title> Medicinal Plant Database </title>
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+    * {
+      margin: 0px;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      background-color: #d4fc79;
+      display: flex;
+      flex-direction: column;
+      scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-attachment: fixed;
+  }
+  
+  ::-webkit-scrollbar {
+    color: #000000;
+    display: none;
+}
+
+  
+    /* Header Part */   
+    header {
+      top: 0;
+      left: 0;
+      z-index: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background:  url('{{ STATIC_URL }}/static/images/hi.avif');
+      overflow-x: hidden;   
+      background-size: cover;  
+      height:30vh; 
+
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-direction: column;
+      max-width: 1500vw;
+      width: 100%;
+      justify-content: center;
+      overflow: hidden;
+      align-items: center;
+      height:100%;
+      margin:0.5%;
+      padding:0.5%;
+
+    }
+
+    
+
+    @media screen and (min-width: 836vw){
+      .hero-cta {
+        height: 280vh;
+      }
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: 'roboto',arial ;
+        text-align:center;
+
+    }
+    
+    h2 {
+        font-size: 30px;
+        color: #ffffff;
+        font-family: 'roboto',arial ;
+        text-align:center;
+    }
+    
+    h3 {
+        font-size: 50px;
+        color: #012d0e;
+        font-family: 'roboto',arial ;
+        text-align:center;
+    }
+    
+    .icon {
+      padding: 1rem  1rem;
+      margin-left: 1 rem;
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      aspect-ratio: 1 / 1;
+    }
+
+    .icon2 {
+      padding: 1rem 1rem;
+      margin-left: 1 rem;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      aspect-ratio: 1 / 1;
+    
+    }
+
+    /* Navbar Part */
+    main {
+      top: 0;
+      left: 0;
+      z-index: 5;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background:  linear-gradient(114.3deg, rgb(19, 126, 57) 0.2%, rgb(8, 65, 91) 68.5%);
+    }
+    
+    .navbar {
+      display: flex;
+      padding: 0 5px;
+      max-width: 1200px;
+      width: 100%;
+      align-items: center;
+      justify-content: space-evenly;
+      overflow: hidden;
+      height:100%;
+    }
+
+    .navbar a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      padding: 10px 19px;
+      font-family: sans-serif;
+      font-size:18px;
+      }
+
+    .navbar a:hover{
+        color:mediumseagreen;
+      }
+    
+    .navbar input#menu-toggler {
+      display: none;
+    }
+    
+    .navbar #hamburger-btn {
+      cursor: pointer;
+      display: none;
+    }
+    
+    .navbar .all-links {
+      display: flex;
+      align-items: center;
+    }
+    
+    .navbar .all-links li {
+      position: relative;
+      list-style: none;
+    }
+    
+    header a, footer a {
+      margin-left: 40px;
+      text-decoration: none;
+      color: #fff;
+      height: 100%;
+      padding: 20px 0;
+      display: inline-block;
+    }
+    
+    header a:hover, footer a:hover {
+      color: #ddd;
+    }
+    
+
+    .homepage .content {
+      display: flex;
+      height: auto;
+      z-index: 3;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    
+    .homepage .content h1 {
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    
+    .homepage .content .text {
+      margin-bottom: auto;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .content a {
+      color: #000;
+      display: block;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin: 0 10px;
+      padding: 10px 30px;
+      border-radius: 5px;
+      background: #fff;
+      border: 2px solid #fff;
+      transition: 0.4s ease;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+      
+    }
+    
+    .content a:hover {
+      color: #fff;
+      background: rgba(255,255,255,0.3);
+    }
+    
+    section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 80px 0 0;
+      
+    }
+    
+    section h2 {
+      font-size: 2rem;
+    }
+    
+    section > p {
+      text-align: center;
+    }
+    
+   
+    
+    footer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
+      color: floralwhite;
+      padding: 10px 0; 
+      
+    }
+    
+    footer div {
+      padding: 0 10px;
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    footer span {
+      color: floralwhite;
+    }
+    
+    footer a {
+      padding: 0;
+    }
+    
+    @media screen and (max-width: 860px) {
+      .navbar .all-links {
+        position: fixed;
+        left: -100%;
+        width: 300px;
+        display: block;
+        height: 100vh;
+        top: 75px;
+        background: #333;
+        transition: left 0.3s ease;
+      }
+    
+      .navbar #menu-toggler:checked~.all-links {
+        left: 0;
+      }
+    
+      .navbar .all-links li {
+        font-size: 18px;
+      }
+    
+      .navbar #hamburger-btn {
+        display: block;
+      }
+    
+      section > p {
+        text-align: center;
+      }
+    
+      section .cards .card {
+        width: calc(100% / 2 - 15px);
+        margin-bottom: 30px;
+      }
+    
+      .homepage .content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+    
+      .homepage .content .text {
+        font-size: 17px;
+      }
+    
+      .content a {
+        font-size: 17px;
+        padding: 9px 20px;
+      }
+    
+      .contact .row {
+        flex-direction: column;
+      }
+    
+      .contact .row .col {
+        width: 100%;
+      }
+    
+      .contact .row .col:last-child {
+        margin-top: 40px;
+      }
+    
+      footer a {
+        height: 0;
+      }
+    }
+    
+    
+    /*carousel part*/
+
+    .col-md-3
+    {
+    display: inline-block;
+    margin-left:-4px;
+    margin-right:-4px;
+    width:270px;
+    }
+    .carousel-indicators .active {
+    background-color: rgb(0, 85, 25);
+      }
+    .col-md-3 img{
+    width:100%;
+    height:auto;
+    }
+    body .carousel-indicator li{
+    background-color: rgb(0, 85, 25);
+    }
+    body .carousel-indicators{
+   
+    top:160px;
+    }
+  /*
+    body .carousel-control-prev-icon,
+    body .carousel-control-next-icon{
+    background-color: rgb(0, 85, 25);
+    }*/
+
+    /*table part*/
+table {
+        
+        align-items:center;
+        width: 100%;
+        margin-top:50px;
+    }
+
+    th {
+      background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
+        color: floralwhite;
+        word-wrap: break-word;
+        text-align:center;
+        text-width: 10px;
+        border: 2px solid rgb(14, 13, 13);
+        font-size: 20px;
+    }
+
+    td {
+      background: radial-gradient(788px at 0.7% 3.4%, rgb(164, 231, 192) 0%, rgb(255, 255, 255) 90%);
+        color: #000000;
+        word-wrap: break-word;
+        text-align:center;
+        padding: 10px;
+        border: 2px solid rgb(14, 13, 13);
+    }
+
+    .tableContainer {
+        width:100%; 
+        overflow-y: scroll;
+        margin-left:10px;
+        margin-right:10px;
+    }
+
+    /* Only for styling, not required for it to work */
+body {
+    background-color: #d4fc79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+form input {
+    border: 2px solid lightslategray;
+    width: 15vw;
+    height: 40px;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1rem;
+    
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid darkslategray;
+}
+
+
+
+    </style>
+    
+    <body>
+      <header>
+        <div class="hero">
+        <div class="hero-cta">
+          <div class="icon">
+            <img style="height: 100px; width: 100px; border-radius:5px; " src="{% static 'images/JIIT.png' %}">
+          </div><br>
+                <h1> MPMDB - Medicinal Plant Metabolites Database </h1>
+                    <h2><marquee width="90%" direction="left" height="100px" ><u>A comprehensive Medicinal Plant Metabolites Database</u>
+                    </marquee></h2>
+          <div class="icon2"> 
+            <img style="height: 100px; width: 100px; border-radius:5px; 
+            " src="{% static 'images/GBU.png' %}">
+          </div> 
+        </div>
+      </div>
+      </header>
+
+        <main>
+          <nav class="navbar">
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+              </svg>
+            </label>
+            <ul class="all-links">
+              <a href = "home.html" >
+                <p><i><b>Home</b></i></p> 
+              </a>
+      
+              <a href = "intro.html" >
+                <p><i><b>Introduction </b></i></p>
+              </a>
+      
+              <a href = "classification.html" >
+                <p><i><b>Taxonomy </b></i></p>
+              </a>
+      
+              <a href = "basic.html" >
+                <p><i><b>Botanical<br> Description </b></i></p>
+              </a>
+      
+              <a href = "genomes.html" >
+                <p><i><b>Genome Sequencing <br>Expression Profile</b></i></p>
+              </a>
+      
+              <a href = "transcriptom.html" >               
+                <p><i><b>Transcriptomics</b></i></p>
+              </a>
+      
+              <a href = " proteome.html" >               
+                <p><i><b>Proteomics</b></i></p>
+              </a>
+      
+              <a href = "metabolites.html" >
+                <p><i><b>Metabolomics</b></i></p>
+              </a>
+            </nav>
+            </main>
+
+    <div id="demo" class="carousel slide my-3" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2" ></li>
+        <li data-target="#demo" data-slide-to="3" ></li>
+        <li data-target="#demo" data-slide-to="4" ></li>
+      </ul>
+  
+      <!--Slideshow starts here -->
+      <div class="container carousel-inner no-padding">
+  
+        <div class="carousel-item active">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/aloe.avif');">
+                  <h5 class="card-title" ><b>ALOEVERA</b></h5>
+                  <p class="card-text" ><u><i>(Aloe barbadensis Mill.)</i></u></p>
+                  <a href="aloevera.html"  class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+         </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/amla3.avif')">
+                <h5 class="card-title"><b>AMLA</b></h5>
+                <p class="card-text"><u><i>(Phyllanthus emblica)</i></u></p>
+                <a href="amla.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body"  style="background-image:url('{{ STATIC_URL }}/static/images/theme.png')">
+                <h5 class="card-title"><b>ASHWAGANDHA</b></h5>
+                <p class="card-text"><u><i>(Withania somnifera)</i></u></p>
+                <a href="ashwagandha.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/babool.avif')">
+                <h5 class="card-title"><b>BABOOL</b></h5>
+                <p class="card-text"><u><i>(Vachellia nilotica)</i></u></p>
+                <a href="babool.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+  
+        <div class="carousel-item">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/bhring.avif')">
+                  <h5 class="card-title"><b>BHRINGRAJ</b></h5>
+                  <p class="card-text"><u><i>(Eclipta prostrata)</i></u></p>
+                  <a href="bhringraj.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/cinn.jpg')" >
+                <h5 class="card-title"><b>CINNAMON</b></h5>
+                <p class="card-text"><u><i>(Cinnamomum verum)</i></u></p>
+                <a href="cinnamon.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/clove.jpg')" >
+                <h5 class="card-title"><b>CLOVE</b></h5>
+                <p class="card-text"><u><i>(Syzygium aromaticum)</i></u></p>
+                <a href="clove.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem;border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/cumin.avif')">
+                <h5 class="card-title"><b>CUMIN</b></h5>
+                <p class="card-text"><u><i>(Cuminum cyminum)</i></u></p>
+                <a href="cumin.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/cur.avif')">
+                  <h5 class="card-title"><b>CURRY LEAVES</b></h5>
+                  <p class="card-text"><u><i>(Murraya koenigii)</i></u></p>
+                  <a href="curry.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+         </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem;border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/euca.avif')">
+                <h5 class="card-title"><b>EUCALYPTUS</b></h5>
+                <p class="card-text"><u><i>(Eucalyptus tereticornis.)</i></u></p>
+                <a href="eucalyptus.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>  
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/ginger.avif')">
+                <h5 class="card-title"><b>GINGER</b></h5>
+                <p class="card-text"><u><i>(Zingiber officinale)</i></u></p>
+                <a href="ginger.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem;border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/lav.avif')">
+                <h5 class="card-title"><b>LAVENDER</b></h5>
+                <p class="card-text"><u><i>(Lavandula angustifolia. )</i></u></p>
+                <a href="lavender.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/mehndi.png')">
+                  <h5 class="card-title"><b>MEHNDI</b></h5>
+                  <p class="card-text"><u><i>(Lawsonia inermis)</i></u></p>
+                  <a href="mehndi.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+         </div> 
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem; border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/neem2.png')" >
+                <h5 class="card-title"><b>NEEM</b></h5>
+                <p class="card-text"><u><i>(Azadirachta indica)</i></u></p>
+                <a href="neem.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem;border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/pm2.avif')">
+                <h5 class="card-title"><b>PEPPERMINT</b></h5>
+                <p class="card-text"><u><i>(Mentha piperita)</i></u></p>
+                <a href="peppermint.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem;border-color:#000000">
+              <div class="card-body" style="background-image:url('{{ STATIC_URL }}/static/images/tulsi.jpeg')">
+                <h5 class="card-title" ><b>TULSI</b></h5>
+                <p class="card-text"  ><u><i>(Ocimum tenuiflorum)</i></u></p>
+                <a href="tulsi.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000"  >Run</a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <div class="card" style="width: 15rem;border-color:#000000">
+              <div class="card-body" style="background: rgb(244, 253, 0);
+              ">
+                  <h5 class="card-title"><b>TURMERIC</b></h5>
+                  <p class="card-text"><u><i>(Curcuma longa)</i></u></p>
+                  <a href="turmeric.html" class="btn btn-primary" style="background-color:#1c6506; border-color:#000000">Run</a>
+              </div>
+            </div>
+         </div>
+      </div>
+  </div> 
+  
+      <!-- left and right controls for the slide 
+      <a class="carousel-control-prev" href="#demo" data-slide="prev" >
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next" >
+          <span class="carousel-control-next-icon"></span>
+      </a>-->
+  
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <section class="homepage" id="home">
+    <div class="content">
+      <div class="text">
+        <section class="hero-section" style="background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);">
+            <div class="content">
+              <h1 >Plants Proteome Profile : </h1>
+            </div>
+          </div>
+        </section>  
+    </div>
+  </div>
+</section>
+
+<form method="get" class="search-form" >
+  <input list="magicHouses" id="myHouse" class="text"  type="text" name="q" placeholder="Plant_Name"/>
+  <datalist id="magicHouses">
+  <option value="Aloevera / acibar / babosa / Barbados aloe">
+  <option value="Amla / Emblic / Indian-gooseberry">
+  <option value="Ankol (Sage leaf alangium)">
+  <option value="Ashoka Tree">
+  <option value="Ashwangandha">
+  <option value="Assam tea">
+  <option value="Astragalus">
+  <option value="Atees (Indian Ateeq)">
+  <option value="Bamboo">
+  <option value="Basil / Sweet basil">
+  <option value="Bearberry">
+  <option value="Bharangi / Blue glory">
+  <option value="Bitter melon / balsam pear / bitter gourd">
+  <option value="Bhojpatra / cao pi hua / Himalayan birch">
+  <option value="Brahmi / water hyssop">
+  <option value="Bryophyllum / Panfuti">
+  <option value="Calendula">
+  <option value="Cardamom / Dalchini">
+  <option value="Chamomile">
+  <option value=" Chinese chastetree / Huang ping / Five-leaved Chaste Tree / Nirgundi">
+  <option value="Chitrak / Ceylon leadwort">
+  <option value="Cinnamon / Ceylon cinnamon">
+  <option value="Clove ">
+  <option value="Coriander / cilantro">
+  <option value="Costus / Kuth">
+  <option value="Cranberry">
+  <option value="Devil's claw / Kalahari devil's claw">
+  <option value="Echinacea / Coneflower">
+  <option value="Fennel">
+  <option value="Fenugreek">
+  <option value="Feverfew">
+  <option value="Garlic">
+  <option value="Giloy / Guduchi">
+  <option value="Ginger">
+  <option value="Ginkgo / Maidenhair tree">
+  <option value="Globe Artichoke">
+  <option value="Gojiberry / Wolfberry">
+  <option value="Golden root / Arctic root / Rose root">
+  <option value="Goldenseal">
+  <option value="Gotu kola / Asiatic pennywort / Sheep-rot / Thankuni">
+  <option value="Great Burdock">
+  <option value="Griffith's Anise / Chinese Star Anise">
+  <option value="Guggal Dhoop">
+  <option value="Gurmar / Madhunashini">
+  <option value="Happy tree">
+  <option value="Himalayan white lily">
+  <option value="Hyssop">
+  <option value="Indian bael">
+  <option value="Indian Sandalwood / White sandalwood">
+  <option value="Jamun / Jaman / Jambolan / Java-plum">
+  <option value="Jasmine / Common Jasmine">
+  <option value="Javanese turmeric / Temu lawak">
+  <option value="Jiaogulan">
+  <option value="John's wort">
+  <option value="Jojoba / Goatnut">
+  <option value="Konjac / Devil's-tongue / Elephant-yam / Konnyaku / mo-yu">
+  <option value="Korean Mint / Purple giant hyssop">
+  <option value="Kulanjan / Greater galangal / Siamese-ginger">
+  <option value="Lavender">
+  <option value="Lemon Balm / Common balm / Sweet balm">
+  <option value="Lemon">
+  <option value="Lemongrass">
+  <option value="Licorice / Mulethi">
+  <option value="Long pepper / Pippali">
+  <option value="Malabar Nut">
+  <option value="Malkangiri (Staff Tree)">
+  <option value="Mango">
+  <option value="Marigold">
+  <option value="Marsh mallow / White mallow">
+  <option value="Milk thistle / Holy thistle / Lady's thistle">
+  <option value="Moringa / Horseradish tree / Drumstick tree">
+  <option value="Mulberry">
+  <option value="Myrobalan / Black myrobalan / harra">
+  <option value="Neem / Indian-lilac / Margosa">
+  <option value="Oats">
+  <option value="Papaya / Mamon">
+  <option value="Peppermint">
+  <option value="Pineapple">
+  <option value="Poppy / Opium poppy">
+  <option value="Punarnava">
+  <option value="Rosemary">
+  <option value="Sagargota / Bonduc nut / Yellow nicker">
+  <option value="Sage / Garden sage">
+  <option value="Salai Guggal (Indian Olibanum) / Indian frankincense">
+  <option value="Shatavari">
+  <option value="Siberian Ginseng">
+  <option value="Spinach">
+  <option value="Stevia">
+  <option value="Sweet flag / Flagroot">
+  <option value="Tamalpatra (Cinnamon Leaf)">
+  <option value="Tea plant">
+  <option value="Thyme / Garden thyme">
+  <option value="Tulsi / Holy basil">
+  <option value="Vajradanti">
+  <option value="Valerian / Common valerian / Garden heliotrope">
+  <option value="Varun (Three Leafed Caper)">
+  <option value="Wheatgrass / Bread wheat / Canadian hard winter wheat / common wheat / wheat">
+  <option value="White turmeric">
+  <option value="Wild turmeric">
+  <option value="Yarrow">
+</datalist>
+        <br>
+        <input type="submit" value="Search" class="submit">
+    </span>
+</form>
+             
+  
+
+  <div class="tableContainer">
+    <table border="1" class="thelongone">
+        <tr>
+            <th> Id </th>
+            <th> Plant Name </th>
+            <th> Protein </th>
+            <th> Protein Identical Group</th>
+            <th>NCBI <br>link</th>
+        </tr>
+        <!-- {% for data in object_list %} -->
+        <tr>
+            <td>{{ data.Plant_Id}}</td>
+            <td>{{ data.Plant_Name}}</td>
+            <td>{{ data.Protein}}</td>
+            <td>{{ data.Protein_Identical_Group}}</td>
+            <td><a href='{{ data.NCBI_link}}'>NCBI Link</a></td>
+        </tr>
+        <!-- {% endfor %} -->
+    </table>
+  </div>
+  <br><br>
+  <div class="tableContainer">
+    <table class="thelist">
+        
+                
+        <tr>
+          <th> Id </th>
+          <th> Plant Name </th>
+          <th> Scientific Name </th>
+          <th style ="background:#d4fc79; "> </th>
+          <th> Id </th>
+          <th> Plant Name </th>
+          <th> Scientific Name </th>
+        </tr>
+
+        <tr>
+          <td > 1. </td>
+          <td > Aloevera / acibar / babosa / Barbados aloe </td>
+          <td style="font-style: italic;">Aloe barbadensis Mill.</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 2. </td>
+          <td > Amla / Emblic / Indian-gooseberry </td>
+          <td style="font-style: italic;">Phyllanthus emblica  </td>
+        </tr>
+
+        <tr>
+          <td > 3. </td>
+          <td > Ankol (Sage leaf alangium) </td>
+          <td style="font-style: italic;">Alangium salviifolium</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 4. </td>
+          <td >Ashoka Tree </td>
+          <td style="font-style: italic;">Saraca asoca</td>
+        </tr>
+
+        <tr>
+          <td > 5. </td>
+          <td >Ashwangandha </td>
+          <td style="font-style: italic;">Withania somnifera</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 6. </td>
+          <td > Assam tea </td>
+          <td style="font-style: italic;">Camellia sinensis var. assamica</td>
+        </tr>
+
+        <tr>
+          <td > 7. </td>
+          <td > Astragalus </td>
+          <td style="font-style: italic;">Astragalus spp.</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 2. </td>
+          <td > Amla / Emblic / Indian-gooseberry </td>
+          <td style="font-style: italic;">Phyllanthus emblica  </td>
+        </tr>
+
+        <tr>
+          <td > 8. </td>
+          <td >Atees (Indian Ateeq)</td>
+          <td style="font-style: italic;">Aconitum heterophyllum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 9. </td>
+          <td >Bamboo </td>
+          <td style="font-style: italic;">Bambuseae </td>
+        </tr>
+
+        <tr>
+          <td > 10. </td>
+          <td > Basil / Sweet basil </td>
+          <td style="font-style: italic;">Ocimum basilicum </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td >  11.  </td>
+          <td > Bearberry </td>
+          <td style="font-style: italic;"> Arctostaphylos uva-ursi</td>
+        </tr>
+
+        <tr>
+          <td > 12.  </td>
+          <td > Bharangi / Blue glory</td>
+          <td style="font-style: italic;"> Clerodendrum serratum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 13.  </td>
+          <td > Bitter melon / balsam pear / bitter gourd </td>
+          <td style="font-style: italic;"> Momordica charantia </td>
+        </tr>
+
+        <tr>
+          <td > 14. </td>
+          <td >Bhojpatra / cao pi hua / Himalayan birch </td>
+          <td style="font-style: italic;">  Betula utilis</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 15. </td>
+          <td > Brahmi / water hyssop </td>
+          <td style="font-style: italic;">Bacopa monnieri  </td>
+        </tr>
+
+        <tr>
+          <td > 16.  </td>
+          <td >Bryophyllum / Panfuti </td>
+          <td style="font-style: italic;">Kalanchoe pinnata </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 17.   </td>
+          <td > Calendula </td>
+          <td style="font-style: italic;"> Calendula officinalis</td>
+        </tr>
+
+        <tr>
+          <td > 18.  </td>
+          <td >Cardamom / Dalchini </td>
+          <td style="font-style: italic;"> Elettaria cardamomum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 19.  </td>
+          <td > Chamomile </td>
+          <td style="font-style: italic;"> Matricaria chamomilla </td>
+        </tr>
+
+        <tr>
+          <td > 20. </td>
+          <td > Chinese chastetree / Huang ping / Five-leaved Chaste Tree / Nirgundi </td>
+          <td style="font-style: italic;">Vitex negundo </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 21. </td>
+          <td >  Chitrak / Ceylon leadwort  </td>
+          <td style="font-style: italic;"> Plumbago zeylanica </td>
+        </tr>
+
+        <tr>
+          <td > 22. </td>
+          <td > Cinnamon / Ceylon cinnamon  </td>
+          <td style="font-style: italic;">Cinnamomum zeylanicum </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 23.  </td>
+          <td > Clove  </td>
+          <td style="font-style: italic;"> Syzygium aromaticum </td>
+        </tr>
+
+        <tr>
+          <td > 24. </td>
+          <td > Coriander / cilantro </td>
+          <td style="font-style: italic;"> Coriandrum sativum </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 25. </td>
+          <td > Costus / Kuth </td>
+          <td style="font-style: italic;"> Saussurea costus </td>
+        </tr>
+
+        <tr>
+          <td > 26.  </td>
+          <td >Cranberry </td>
+          <td style="font-style: italic;">Vaccinium oxycoccus </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 27. </td>
+          <td >Devil's claw / Kalahari devil's claw  </td>
+          <td style="font-style: italic;"> Harpagophytum procumbens </td>
+        </tr>
+
+        <tr>
+          <td > 28. </td>
+          <td > Echinacea / Coneflower </td>
+          <td style="font-style: italic;"> Echinacea purpurea</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 29.  </td>
+          <td > Fennel </td>
+          <td style="font-style: italic;"> Anethum foeniculum</td>
+        </tr>
+
+        <tr>
+          <td > 30. </td>
+          <td > Fenugreek </td>
+          <td style="font-style: italic;">Trigonella foenum-graecum </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 31. </td>
+          <td > Feverfew </td>
+          <td style="font-style: italic;"> Tanacetum parthenium </td>
+        </tr>
+
+        <tr>
+          <td > 32. </td>
+          <td > Garlic </td>
+          <td style="font-style: italic;"> Allium sativum </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 33. </td>
+          <td > Giloy / Guduchi </td>
+          <td style="font-style: italic;"> Tinospora cordifolia </td>
+        </tr>
+
+        <tr>
+          <td > 34. </td>
+          <td > Ginger </td>
+          <td style="font-style: italic;"> Zingiber officinale </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 35.  </td>
+          <td > Ginkgo / Maidenhair tree </td>
+          <td style="font-style: italic;"> Ginkgo biloba </td>
+        </tr>
+
+        <tr>
+          <td > 36. </td>
+          <td > Globe Artichoke </td>
+          <td style="font-style: italic;"> Cynara cardunculus var. scolymus </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 37. </td>
+          <td > Gojiberry / Wolfberry  </td>
+          <td style="font-style: italic;"> Lycium barbarum </td>
+        </tr>
+
+        <tr>
+          <td > 38. </td>
+          <td > Golden root / Arctic root / Rose root </td>
+          <td style="font-style: italic;"> Rhodiola rosea </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 39. </td>
+          <td > Goldenseal </td>
+          <td style="font-style: italic;"> Hydrastis canadensis </td>
+        </tr>
+
+        <tr>
+          <td > 40. </td>
+          <td > Gotu kola / Asiatic pennywort / Sheep-rot / Thankuni </td>
+          <td style="font-style: italic;">Centella asiatica</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 41.  </td>
+          <td > Great Burdock </td>
+          <td style="font-style: italic;">Arctium lappa </td>
+        </tr>
+
+        <tr>
+          <td > 42. </td>
+          <td > Griffith's Anise / Chinese Star Anise </td>
+          <td style="font-style: italic;">Illicium verum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 43. </td>
+          <td > Guggal Dhoop  </td>
+          <td style="font-style: italic;"> Commiphora wightii </td>
+        </tr>
+
+        <tr>
+          <td > 44. </td>
+          <td > Gurmar / Madhunashini </td>
+          <td style="font-style: italic;">Gymnema sylvestre </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 45. </td>
+          <td > Happy tree </td>
+          <td style="font-style: italic;"> Camptotheca acuminata </td>
+        </tr>
+
+        <tr>
+          <td > 46. </td>
+          <td > Himalayan white lily </td>
+          <td style="font-style: italic;">Lilium polyphyllum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 47.  </td>
+          <td > Hyssop </td>
+          <td style="font-style: italic;">Hyssopus officinalis</td>
+        </tr>
+
+        <tr>
+          <td > 48. </td>
+          <td > Indian bael </td>
+          <td style="font-style: italic;"> Aegle marmelos </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 49. </td>
+          <td > Indian Sandalwood / White sandalwood </td>
+          <td style="font-style: italic;"> Santalum album </td>
+        </tr>
+
+        <tr>
+          <td > 50. </td>
+          <td > Jamun / Jaman / Jambolan / Java-plum </td>
+          <td style="font-style: italic;"> Syzygium cumini </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 51. </td>
+          <td > Jasmine / Common Jasmine </td>
+          <td style="font-style: italic;"> Jasminum officinale </td>
+        </tr>
+
+        <tr>
+          <td > 52. </td>
+          <td > Javanese turmeric / Temu lawak </td>
+          <td style="font-style: italic;"> Curcuma xanthorrhiza </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td >  53. </td>
+          <td > Jiaogulan </td>
+          <td style="font-style: italic;">Gynostemma pentaphyllum </td>
+        </tr>
+
+        <tr>
+          <td > 54. </td>
+          <td >  John's wort </td>
+          <td style="font-style: italic;"> Hypericum perforatum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 55. </td>
+          <td > Jojoba / Goatnut </td>
+          <td style="font-style: italic;"> Simmondsia chinensis </td>
+        </tr>
+
+        <tr>
+          <td > 56. </td>
+          <td > Konjac / Devil's-tongue / Elephant-yam / Konnyaku / mo-yu </td>
+          <td style="font-style: italic;"> Amorphophallus konjac </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 57. </td>
+          <td > Korean Mint / Purple giant hyssop </td>
+          <td style="font-style: italic;">  Agastache rugosa</td>
+        </tr>
+
+        <tr>
+          <td > 58. </td>
+          <td > Kulanjan / Greater galangal / Siamese-ginger </td>
+          <td style="font-style: italic;"> Alpinia galanga </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 59. </td>
+          <td > Lavender </td>
+          <td style="font-style: italic;">Lavandula angustifolia </td>
+        </tr>
+
+        <tr>
+          <td > 60. </td>
+          <td > Lemon Balm / Common balm / Sweet balm </td>
+          <td style="font-style: italic;"> Melissa officinalis </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 61. </td>
+          <td > Lemon </td>
+          <td style="font-style: italic;"> Citrus limon </td>
+        </tr>
+
+        <tr>
+          <td > 62. </td>
+          <td > Lemongrass </td>
+          <td style="font-style: italic;"> Cymbopogon citratus </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 63. </td>
+          <td > Licorice / Mulethi </td>
+          <td style="font-style: italic;"> Glycyrrhiza glabra </td>
+        </tr>
+
+        <tr>
+          <td > 64. </td>
+          <td > Long pepper / Pippali  </td>
+          <td style="font-style: italic;"> Piper longum</td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 65.  </td>
+          <td > Malabar Nut  </td>
+          <td style="font-style: italic;"> Justicia adhatoda</td>
+        </tr>
+
+        <tr>
+          <td > 66. </td>
+          <td > Malkangiri (Staff Tree) </td>
+          <td style="font-style: italic;"> Celastrus paniculatus </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 67. </td>
+          <td > Mango </td>
+          <td style="font-style: italic;"> Mangifera indica </td>
+        </tr>
+
+        <tr>
+          <td > 68. </td>
+          <td > Marigold </td>
+          <td style="font-style: italic;">Tagetes spp. </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 69. </td>
+          <td >  Marsh mallow / White mallow </td>
+          <td style="font-style: italic;"> Althaea officinalis </td>
+        </tr>
+        
+        <tr>
+          <td > 70. </td>
+          <td > Milk thistle / Holy thistle / Lady's thistle </td>
+          <td style="font-style: italic;"> Silybum marianum </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 71. </td>
+          <td > Moringa / Horseradish tree / Drumstick tree </td>
+          <td style="font-style: italic;"> Moringa oleifera </td>
+        </tr>
+
+        <tr>
+          <td > 72. </td>
+          <td > Mulberry </td>
+          <td style="font-style: italic;"> Morus spp. </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 73. </td>
+          <td > Myrobalan / Black myrobalan / harra </td>
+          <td style="font-style: italic;"> Terminalia chebula </td>
+        </tr>
+
+        <tr>
+          <td > 74. </td>
+          <td > Neem / Indian-lilac / Margosa  </td>
+          <td style="font-style: italic;"> Azadirachta indica </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 75. </td>
+          <td > Oats </td>
+          <td style="font-style: italic;"> Avena sativa  </td>
+        </tr>
+
+        <tr>
+          <td > 76. </td>
+          <td > Papaya / Mamon </td>
+          <td style="font-style: italic;"> Carica papaya </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 77. </td>
+          <td > Peppermint </td>
+          <td style="font-style: italic;"> Mentha piperita </td>
+        </tr>
+
+        <tr>
+          <td > 78. </td>
+          <td > Pineapple </td>
+          <td style="font-style: italic;"> Ananas comosus </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 79. </td>
+          <td > Poppy / Opium poppy </td>
+          <td style="font-style: italic;"> Papaver somniferum </td>
+        </tr>
+
+        <tr>
+          <td > 80. </td>
+          <td > Punarnava </td>
+          <td style="font-style: italic;"> Boerhavia diffusa </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 81. </td>
+          <td > Rosemary </td>
+          <td style="font-style: italic;"> Rosmarinus officinalis </td>
+        </tr>
+
+        <tr>
+          <td > 82. </td>
+          <td > Sagargota / Bonduc nut / Yellow nicker  </td>
+          <td style="font-style: italic;"> Guilandina bonduc </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 83. </td>
+          <td > Sage / Garden sage </td>
+          <td style="font-style: italic;"> Salvia officinalis </td>
+        </tr>
+
+        <tr>
+          <td > 84. </td>
+          <td > Salai Guggal (Indian Olibanum) / Indian frankincense </td>
+          <td style="font-style: italic;"> Boswellia serrata </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 85. </td>
+          <td > Shatavari </td>
+          <td style="font-style: italic;"> Asparagus racemosus </td>
+        </tr>
+
+        <tr>
+          <td > 86. </td>
+          <td > Siberian Ginseng </td>
+          <td style="font-style: italic;"> Eleutherococcus senticosus </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 87. </td>
+          <td > Spinach </td>
+          <td style="font-style: italic;"> Spinacia oleracea </td>
+        </tr>
+
+        <tr>
+          <td > 88. </td>
+          <td > Stevia </td>
+          <td style="font-style: italic;"> Stevia rebaudiana </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 89. </td>
+          <td > Sweet flag / Flagroot </td>
+          <td style="font-style: italic;"> Acorus calamus </td>
+        </tr>
+
+        <tr>
+          <td > 90. </td>
+          <td >  Tamalpatra (Cinnamon Leaf) </td>
+          <td style="font-style: italic;"> Cinnamomum tamala </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 91. </td>
+          <td > Tea plant </td>
+          <td style="font-style: italic;"> Camellia sinensis </td>
+        </tr>
+
+        <tr>
+          <td > 92. </td>
+          <td > Thyme / Garden thyme </td>
+          <td style="font-style: italic;"> Thymus vulgaris </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 93. </td>
+          <td > Tulsi / Holy basil </td>
+          <td style="font-style: italic;"> Ocimum tenuiflorum </td>
+        </tr>
+
+        <tr>
+          <td > 94. </td>
+          <td > Vajradanti </td>
+          <td style="font-style: italic;"> Barleria prionitis </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 95. </td>
+          <td > Valerian / Common valerian / Garden heliotrope </td>
+          <td style="font-style: italic;">Valeriana officinalis </td>
+        </tr>
+
+        <tr>
+          <td > 96. </td>
+          <td > Varun (Three Leafed Caper) </td>
+          <td style="font-style: italic;"> Crateva nurvala </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 97. </td>
+          <td > Wheatgrass / Bread wheat / Canadian hard winter wheat / common wheat / wheat </td>
+          <td style="font-style: italic;"> Triticum aestivum </td>
+        </tr>
+
+        <tr>
+          <td > 98. </td>
+          <td > White turmeric </td>
+          <td style="font-style: italic;"> Curcuma zedoaria </td>
+          <td style ="background:#d4fc79; " > </td>
+          <td > 99. </td>
+          <td > Wild turmeric </td>
+          <td style="font-style: italic;"> Curcuma aromatica </td>
+        </tr>
+
+        <tr>
+          <td > 100. </td>
+          <td > Yarrow </td>
+          <td style="font-style: italic;"> Achillea millefolium</td>
+          <td style ="background:#d4fc79; " > </td>
+        </tr>
+      </table>
+    </div>
+   </div>
+</div>
+</div> 
+<br><br>
+  <footer>
+    <div>
+      <span>Copyright © Jaypee Institute Of Information Technology, UP and  Gujarat Biotechnology University, Gujarat</span>
+      <span class="link">
+          <a href="#">Top</a>
+          <a href="home.html">Home</a>
+          
+      </span>
+    </div>
+  </footer>
+
+  <script>// Change option selected
+    const label = document.querySelector('.dropdown__filter-selected')
+    const options = Array.from(document.querySelectorAll('.dropdown__select-option'))
+    
+    options.forEach((option) => {
+      option.addEventListener('click', () => {
+        label.textContent = option.textContent
+      })
+    })
+    
+    // Close dropdown onclick outside
+    document.addEventListener('click', (e) => {
+      const toggle = document.querySelector('.dropdown__switch')
+      const element = e.target
+    
+      if (element == toggle) return;
+    
+      const isDropdownChild = element.closest('.dropdown__filter')		
+      
+      if (!isDropdownChild) {
+        toggle.checked = false
+      }
+    })
+  </script>
+
+</body>
+</html>
+            

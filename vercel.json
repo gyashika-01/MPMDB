@@ -1,0 +1,11 @@
+{
+    "builds": [{
+        "src": "medi/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "3.12" }
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "medi/wsgi.py"
+    }]
+}
