@@ -1,0 +1,302 @@
+Plant_Id,Plant_Name,Scientific_Name,Kingdom,Division,Class,Order,Family,Genus,Species
+1, Absinthium / Wormwood,Artemisia absinthium,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Artemisia,absinthium
+2, Aloevera / acibar / babosa / Barbados aloe,Aloe barbadensis Miller,Plantae,Magnoliophyta,Liliopsida,Asparagales,Xanthorrhoeaceae,Aloe,barbadensis Miller
+3, Amla / Emblic / Indian-gooseberry,Phyllanthus emblica,Plantae,Magnoliophyta,Magnoliopsida,Phyllanthales,Phyllanthaceae,Phyllanthus,emblica
+4, Ankol / Sage leaf alangium,Alangium salviifolium,Plantae,Magnoliophyta,Magnoliopsida,Cornales,Alangiaceae,Alangium,salviifolium
+5, Arracacha,Arracacia xanthorrhiza,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Arracacia,xanthorrhiza
+6, Ashoka Tree,Saraca asoca,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Saraca,asoca
+7, Ashwangandha,Withania somnifera,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Solanaceae,Withania,somnifera
+8, Assam tea,Camellia sinensis var. assamica ,Plantae,Magnoliophyta,Magnoliopsida,Theales,Theaceae,Camellia,sinensis var. assamica
+9,Aatki,Rauvolfia serpentina (L.) Benth. Ex Kurz,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Rauvolfia ,serpentina (L.) Benth. Ex Kurz
+10,Aguru / Agarkasth / Eagle Wood,Aquilaria agallocha,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Thymelaeaceae,Aquilaria ,agallocha
+11,Akarkara / Pellitory,Anacyclus pyrethrum,Plantae,Magnoliophyta,Equisetopsida,Asterales,Asteraceae,Anacyclus,pyrethrum
+12,Alasyakampa,Acampe papillosa (Lindl.) Lindl.,Plantae,Magnoliophyta,Liliopsida,Orchidales,Orchidaceae,Acampe ,papillosa (Lindl.) Lindl.
+13,Ambrosia,Ambrosia artemisifolia,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Ambrosia ,artemisifolia
+14,Anant,Tabernaemontana orientalis R.Br.,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Tabernaemontana ,orientalis R.Br.
+15,Anantamool,Hemidesmus indicus,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Hemidesmus , indicus
+16,Apamarga,Achyranthes bidentata Blume,Plantae,Magnoliophyta,Magnoliopsida,Caryophyllales,Amaranthaceae,Achyranthes ,bidentata Blume
+17,Apple,Malus pumila,Plantae,Magnoliophyta,Magnoliopsida,Rosales,Rosaceae,Malus ,pumila
+18,Apricot,Prunus armeniaca,Plantae,Magnoliophyta,Magnoliopsida,Rosales,Rosaceae,Prunus ,armeniaca
+19,Aster,Aster tataricus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Aster ,tataricus
+20,Astragalus,Astragalus spp.,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Astragalus ,spp.
+21,Atees / Indian Ateeq,Aconitum heterophyllum,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aconitum , heterophyllum
+22,Avocado,Persea americana,Plantae,Magnoliophyta,Magnoliopsida,Laurales,Lauraceae,Persea , americana
+23,Ayapaan,Eupatorium triplenerve,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Eupatorium , triplenerve
+24,Babool / Indian Gum,Acacia arabica Willd,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Acacia ,arabica Willd
+25,Bahera,Terminalia bellirica,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Combretaceae,Terminalia , bellirica
+26,Bala,Sida cordifolia,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Sida , cordifolia
+27,Bamboo,Bambusa vulgaris,Plantae,Magnoliophyta,Liliopsida,Poales,Poaceae,Bambusa , vulgaris
+28,Bamunhati,Clerodendrum indicum (L.) Ktze,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Clerodendrum , indicum (L.) Ktze
+29, Banana,Musa paradisiaca,Plantae,Magnoliophyta,Liliopsida,Zingiberales,Musaceae,Musa,paradisiaca
+30, Basil / Sweet basil,Ocimum basilicum,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Ocimum,basilicum
+31,Barakanghi,Abutilon hirtum (Lam.) Sweet,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Abutilon , hirtum (Lam.) Sweet
+32,Basak,Adhatoda vasica Nees,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Acanthaceae,Adhatoda, vasica Nees
+33, Beetroot,Beta vulgaris,Plantae,Magnoliophyta,Caryophyllidae,Caryophyllales,Chenopodiaceae,Beta ,vulgaris
+34, Broccoli,Brassica oleracea,Plantae,Magnoliophyta,Magnoliopsida,Brassicales,Brassicaceae,Brassica ,oleracea
+35,Bearberry / Kinnikinnick,Arctostaphylos uva-ursi,Plantae,Magnoliophyta,Magnoliopsida,Ericales,Ericaceae,Arctostaphylos , uva-ursi
+36,Betony,Stachys officinalis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Stachys , officinalis
+37,Bharangi / Blue glory,Clerodendrum serratum,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Clerodendrum , serratum
+38,Bhelwa,Semecarpus anacardium,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Anacardiaceae,Semecarpus , anacardium
+39,Bhojpatra / cao pi hua / Himalayan birch,Betula utilis,Plantae,Magnoliophyta,Magnoliopsida,Fagales,Betulaceae,Betula , utilis
+40,Bhringaraj,Wedelia calendulacea  Less.,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Wedelia , calendulacea  Less.
+41,Bidens,Bidens pilosa,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Bidens ,pilosa
+42,Bitter melon / balsam pear / bitter gourd / Karon Akhaba / Karela,Momordica charantia,Plantae,Magnoliophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Momordica ,charantia
+43,Black walnut,Juglans nigra ,Plantae,Magnoliophyta,Magnoliopsida,Fagales,Juglandaceae,Juglans  , nigra 
+44,Blackcurrant,Ribes nigrum,Plantae,Magnoliophyta,Magnoliopsida,Saxifragales,Grossulariaceae,Ribes , nigrum
+45,Blue cohosh,Caulophyllum thalictroides,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Berberidaceae,Caulophyllum , thalictroides
+46,Boneset,Eupatorium perfoliatum,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Eupatorium , perfoliatum
+47,Brahmi / water hyssop,Bacopa monnieri,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Plantaginaceae,Bacopa , monnieri
+48,Brihati,Solanum indicum Linn.,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Solanaceae,Solanum , indicum Linn.
+49,Broom,Sarothamnus scoparius ,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Sarothamnus  , scoparius 
+50,Bryophyllum / Panfuti,Kalanchoe pinnata,Plantae,Magnoliophyta,Liliopsida,Saxifragales,Crassulaceae,Kalanchoe , pinnata
+51, Calabash,Lagenaria siceraria,Plantae,Magnoliophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Lagenaria ,siceraria
+52, Cress,Lepidium sativum,Plantae,Magnoliophyta,Caryophyllidae,Capparales,Brassicaceae,Lepidium ,sativum
+53,Calendula / Marigold,Calendula officinalis,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Calendula , officinalis
+54,California poppy,Eschscholzia californica,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Papaveraceae,Eschscholzia , californica
+55,Camphor,Cinnamomum camphora,Plantae,Magnoliophyta,Magnoliopsida,Laurales,Lauraceae,Cinnamomum , camphora
+56,Canada thistle,Cirsium arvense,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Cirsium , arvense
+57,Cardamom / Dalchini,Elettaria cardamomum,Plantae,Magnoliophyta,Magnoliopsida,Zingiberales,Zingiberaceae,Elettaria , cardamomum
+58,Carrot,Daucus carota,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Daucus , carota
+59,Celery,Apium graveolens,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Apium , graveolens
+60,Chamomile,Matricaria chamomilla,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Matricaria , chamomilla
+61,Chickweed,Stellaria media ,Plantae,Magnoliophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Stellaria  , media 
+62,Chicory,Cichorium intybus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Cichorium , intybus
+63,Chinese chastetree / Huang ping / Five-leaved Chaste Tree / Nirgundi,Vitex negundo,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Vitex , negundo
+64,Chirata / Kiratatikta,Swertia chirayita,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Gentianaceae,Swertia , chirayita
+65,Chitrak / Ceylon leadwort,Plumbago zeylanica,Plantae,Magnoliophyta,Magnoliopsida,Plumbaginales,Plumbaginaceae,Plumbago , zeylanica
+66,Cinnamon / Ceylon cinnamon,Cinnamomum verum,Plantae,Magnoliophyta,Magnoliopsida,Laurales,Lauraceae,Cinnamomum , verum
+67,Clove,Syzygium aromaticum,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Myrtaceae,Syzygium , aromaticum
+68,Cnidium,Cnidium monnieri ,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Cnidium  , monnieri 
+69,Columbine,Aquilegia vulgaris,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aquilegia , vulgaris
+70,Comfrey,Symphytum officinale,Plantae,Magnoliophyta,Magnoliopsida,Boraginales,Boraginaceae,Symphytum , officinale
+71,Common milkweed,Asclepias syriaca,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Asclepias , syriaca
+72,Coriander / cilantro,Coriandrum sativum,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Coriandrum , sativum
+73,Corn,Zea mays,Plantae,Magnoliophyta,Magnoliopsida,Poales,Poaceae,Zea , mays
+74,Cornelian cherry,Cornus mas,Plantae,Magnoliophyta,Magnoliopsida,Cornales,Cornaceae,Cornus , mas
+75,Cornflower,Centaurea cyanus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Centaurea , cyanus
+76,Corydalis,Corydalis yanhusuo,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Papaveraceae,Corydalis , yanhusuo
+77,Cosmos,Cosmos bipinnatus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Cosmos , bipinnatus
+78,Costus / Kuth,Saussurea costus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Saussurea , costus
+79,Cranberry,Vaccinium oxycoccus,Plantae,Magnoliophyta,Magnoliopsida,Ericales,Ericaceae,Vaccinium , oxycoccus
+80,Cucumber,Cucumis sativus,Plantae,Magnoliophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Cucumis , sativus
+81,Culantro,Eryngium foetidum,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Eryngium , foetidum
+82,Dandelion,Taraxacum officinale,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Taraxacum , officinale
+83,Daru haridra,Berberis aristata,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Berberidaceae,Berberis , aristata
+84,Devil's claw / Kalahari devil's claw,Harpagophytum procumbens,Plantae,Magnoliophyta,Magnoliopsida,Pedalinales,Pedaliaceae,Harpagophytum , procumbens
+85,Dhawaifool,Woodfordia fruticosa,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Lythraceae,Woodfordia , fruticosa
+86,Dill,Anethum graveolens,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Anethum , graveolens
+87,Echinacea / Coneflower, Echinacea purpurea ,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae, Echinacea  ,  purpurea 
+88,Epazote,Chenopodium ambrosioides,Plantae,Magnoliophyta,Magnoliopsida,Caryophyllales,Chenopodiaceae,Chenopodium , ambrosioides
+89,Eucalyptus,Eucalyptus globulus,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Myrtaceae,Eucalyptus , globulus
+90,Eyebright,Euphrasia officinalis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Orobanchaceae,Euphrasia , officinalis
+91,Fennel,Foeniculum vulgare,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Foeniculum , vulgare
+92,Fenugreek,Trigonella foenum-graecum,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Trigonella , foenum-graecum
+93,Feverfew,Tanacetum parthenium,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Tanacetum , parthenium
+94, Flax seed,Linum usitatissimum,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Linaceae,Linum , usitatissimum
+95, Gray santolina,Santolina chamaecyparissus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Santolina ,chamaecyparissus
+96,Fly agaric,Agaricus muscarius,Fungi,Basidiomycota,Agaricomycetes,Agaricales,Agaricaceae,Agaricus , muscarius
+97,Forskohlii,Coleus forskohlii ,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Coleus  , forskohlii 
+98,Fuller's teasel,Dipsacus fullonum,Plantae,Magnoliophyta,Magnoliopsida,Dipsacales,Dipsacaceae,Dipsacus , fullonum
+99,Gamar,Gmelina  arborea  Roxb.,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Gmelina ,  arborea  Roxb.
+100,Garlic,Allium sativum,Plantae,Magnoliophyta,Liliopsida,Asparagales,Amaryllidaceae,Allium , sativum
+101,Ghaypat,Agave americana L.,Plantae,Magnoliophyta,Liliopsida,Asparagales,Agavaceae,Agave , americana L.
+102,Ghee Kunwar / Aloes,Aloe vera Tourn ex. Linn,Plantae,Magnoliophyta,Liliopsida,Asparagales,Asphodelaceae,Aloe , vera Tourn ex. Linn
+103,Giloy / Guduchi / Guluncha,Tinospora cordifolia,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Menispermaceae,Tinospora , cordifolia
+104,Ginger,Zingiber officinale,Plantae,Magnoliophyta,Zingiberopsida,Zingiberales,Zingiberaceae,Zingiber , officinale
+105,Ginkgo / Maidenhair tree,Ginkgo biloba,Plantae,Ginkgophyta,Ginkgoopsida,Ginkgoales,Ginkgoaceae,Ginkgo , biloba
+106,Globe Artichoke,Cynara cardunculus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Cynara , cardunculus
+107,Globeflower,Trollius europaeus ,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Trollius  , europaeus 
+108,Goat willow,Salix caprea,Plantae,Magnoliophyta,Magnoliopsida,Malpighiales,Salicaceae,Salix , caprea
+109,Gojiberry / Wolfberry,Lycium barbarum,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Solanaceae,Lycium , barbarum
+110,Golden root / Arctic root / Rose root,Rhodiola rosea,Plantae,Magnoliophyta,Magnoliopsida,Rosales,Crassulaceae,Rhodiola , rosea
+111,Golden shower,Cassia fistula,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Cassia , fistula
+112,Goldenseal,Hydrastis canadensis,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Hydrastis , canadensis
+113,Gotu kola / Asiatic pennywort / Sheep-rot / Thankuni / Mandukparni,Centella asiatica,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Centella , asiatica
+114,Grape,Vitis vinifera ,Plantae,Magnoliophyta,Magnoliopsida,Vitales,Vitaceae,Vitis  , vinifera 
+115,Great Burdock,Arctium lappa,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Arctium , lappa
+116,Griffith's Anise / Chinese Star Anise,Illicium verum,Plantae,Magnoliophyta,Magnoliopsida,Austrobaileyales,Illiciaceae,Illicium , verum
+117,Guggal Dhoop,Commiphora wightii,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Burseraceae,Commiphora , wightii
+118,Guggulu / Indian Bdelium,Commiphora mukul Engl,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,"	Burseraceae",Commiphora , mukul Engl
+119,Gurmar / Madhunashini,Gymnema sylvestre,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Gymnema , sylvestre
+120,Hair amaranth,Amaranthus caudatus,Plantae,Magnoliophyta,Caryophyllopsida,Caryophyllales,Amaranthaceae,Amaranthus, caudatus
+121,Happy tree,Camptotheca acuminata,Plantae,Magnoliophyta,Magnoliopsida,Cornales,Cornaceae,Camptotheca , acuminata
+122,Hargoza,Acanthus illicifolius L.,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Acanthaceae,Acanthus, illicifolius L.
+123,Harikokthong,Artocarpus lakoocha,Plantae,Magnoliophyta,Magnoliopsida,Rosales,Moraceae,Artocarpus , lakoocha
+124,Hawthorn,Cratageus monogyna,Plantae,Magnoliophyta,Rosopsida,Rosales,Rosaceae,Cratageus , monogyna
+125,Hazelnut,Corylus avellana ,Plantae,Magnoliophyta,Magnoliopsida,Fagales,Betulaceae,Corylus  , avellana 
+126,Hemlock,Conium maculatum,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Conium , maculatum
+127,Himalayan white lily,Lilium polyphyllum,Plantae,Magnoliophyta,Liliopsida,Liliales,Liliaceae,Lilium , polyphyllum
+128,Hop bush,Dodonaea viscosa,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Sapindaceae,Dodonaea , viscosa
+129,Horse chestnut,Aesculus hippocastanum ,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Hippocastanaceae,Aesculus  , hippocastanum 
+130,Horsetail,Equisetum arvense,Plantae,Magnoliophyta,Equisetopsida,Equisetales,Equisetaceae,Equisetum , arvense
+131,Huang qi,Astragalus membranaceus ,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Astragalus  , membranaceus 
+132,Hyssop,Hyssopus officinalis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Hyssopus , officinalis
+133,Indian bael,Aegle marmelos,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Rutaceae,Aegle , marmelos
+134,Indian Sandalwood / White sandalwood / Chandana,Santalum album,Plantae,Magnoliophyta,Magnoliopsida,Santalales,Santalaceae,Santalum , album
+135,Ipecac,Cephaelis ipecacuanha,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Rubiaceae,Cephaelis , ipecacuanha
+136,Irish moss,Chondrus crispus,Plantae,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondrus , crispus
+137,Isabgol,Plantago ovata,Plantae,Magnoliophyta,Magnoliopsida,Plantaginales,Plantaginaceae,Plantago , ovata
+138,Ivy,Hedera helix,Plantae,Magnoliophyta,Magnoliopsida,Araliales,Araliaceae,Hedera , helix
+139,Jamun / Jaman / Jambolan / Java-plum,Syzygium cumini,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Myrtaceae,Syzygium , cumini
+140,Jasmine / Common Jasmine,Jasminum officinale,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Oleaceae,Jasminum , officinale
+141,Jatamansi,Nardostachys jatamansi,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Nardostachys , jatamansi
+142,Javanese turmeric / Temu lawak,Curcuma zanthorrhiza,Plantae,Magnoliophyta,Zingiberopsida,Zingiberales,Zingiberaceae,Curcuma , zanthorrhiza
+143,Jharberi / Chanibor / Chanya-bor,Ziziphus nummularia (Burm.f.) Wight & Arn.,Plantae,Magnoliophyta,Magnoliopsida,Rhamnales,Rhamnaceae,Ziziphus,nummularia (Burm.f.) Wight & Arn.
+144,Jiaogulan,Gynostemma pentaphyllum,Plantae,Magnoliophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Gynostemma , pentaphyllum
+145,Jimikand / Elephant yam,Amorphophallus campanulatus,Plantae,Magnoliophyta,Liliopsida,Alismatales,Araceae,Amorphophallus , campanulatus
+146,John's wort,Hypericum perforatum,Plantae,Magnoliophyta,Magnoliopsida,Malpighiales,Hypericaceae,Hypericum , perforatum
+147,Jojoba / Goatnut,Simmondsia chinensis,Plantae,Magnoliophyta,Magnoliopsida,Caryophyllales,Simmondsiaceae,Simmondsia , chinensis
+148, Kaffir lime,Citrus hystrix,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Rutaceae,Citrus,hystrix
+149,Kadirkasth / Cutch Tree,Acacia catechu Willd,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Acacia , catechu Willd
+150,Kaju,Anacardium occidentale L.,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Anacardiaceae,Anacardium , occidentale L.
+151,Kakrai,Abutilon pannosum (Forst.) Schlect.,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Abutilon , pannosum (Forst.) Schlect.
+152,Kalijhant,Adiantum philippense L.,Plantae,Pteridophyta,Polypodiopsida,Hymenophyllales,Hymenophyllaceae,Adiantum, philippense L.
+153,kaner,Nerium odoratum Lam.,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Nerium , odoratum Lam.
+154,Kanghi / Kakahi,Abutilon indicum (L.) Sweet,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Abutilon , indicum (L.) Sweet
+155,Kantikari,Solanum xanthocarpum,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Solanaceae,Solanum , xanthocarpum
+156,Karanj seed,Pongamia pinnata,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Pongamia , pinnata
+157,Karvanda,Carissa spinarum L.,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apocynaceae,Carissa, spinarum L.
+158,Kauch beej,Mucuna pruriens,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Mucuna , pruriens
+159,Kava,Piper methysticum,Plantae,Magnoliophyta,Magnoliopsida,Piperales,Piperaceae,Piper , methysticum
+160,Kesar / Saffron,Crocus sativus,Plantae,Magnoliophyta,Liliopsida,Liliales,Iridaceae,Crocus , sativus
+161,Ketaki / Crepe Ginger,Costus speciosus (Koeing) Sm.,Plantae,Magnoliophyta,Liliopsida,Zingiberales,Costaceae,Costus, speciosus (Koeing) Sm.
+162,Kirayte,Andrographis paniculata (Burm.f.) wall.,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Acanthaceae,Andrographis, paniculata (Burm.f.) wall.
+163,Kokum,Garcinia indica,Plantae,Magnoliophyta,Magnoliopsida,Malpighiales,Clusiaceae,Garcinia , indica
+164,Konjac / Devil's-tongue / Elephant-yam / Konnyaku / mo-yu,Amorphophallus konjac,Plantae,Magnoliophyta,Liliopsida,Alismatales,Araceae,Amorphophallus , konjac
+165,Korean Mint / Purple giant hyssop,Agastache rugosa,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Agastache , rugosa
+166,Kulanjan / Greater galangal / Siamese-ginger,Alpinia galanga,Plantae,Magnoliophyta,Zingiberopsida,Zingiberales,Zingiberaceae,Alpinia , galanga
+167,Kurchi / Nagalkudo,Holarrhena antidysenterica  (L.) Wall.,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Holarrhena , antidysenterica  (L.) Wall.
+168,Kuthap,Clerodendrum chinense,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Clerodendrum , chinense
+169,Kutki,Picrorhiza kurrooa,Plantae,Magnoliophyta,Magnoliopsida,Scrophulariales,Scrophulariaceae,Picrorhiza , kurrooa
+170,Lady's mantle,Alchemilla vulgaris,Plantae,Magnoliophyta,Rosopsida,Rosales,Rosaceae,Alchemilla , vulgaris
+171,Lai peruk,Hydrocotyle sibthorpioides,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Hydrocotyle , sibthorpioides
+172,Latjira,Achyranthes aspera L.,Plantae,Magnoliophyta,Magnoliopsida,Caryophyllales,Amaranthaceae,Achyranthes , aspera L.
+173,Lavender,Lavandula angustifolia,Plantae,Magnoliophyta,Liliopsida,Lamiales,Lamiaceae,Lavandula , angustifolia
+174,Lemon,Citrus limon,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Rutaceae,Citrus , limon
+175,Lemon Balm / Common balm / Sweet balm,Melissa officinalis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Melissa , officinalis
+176, Lemongrass,Cymbopogon citratus,Plantae,Magnoliophyta,Liliopsida,Poales,Poaceae,Cymbopogon ,citratus
+177,Lemon verbena,Aloysia citrodora,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Verbenaceae,Aloysia , citrodora
+178,Lettuce,Lactuca sativa,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Lactuca , sativa
+179,Licorice / Mulethi,Glycyrrhiza glabra,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Glycyrrhiza , glabra
+180,Long pepper / Pippali,Piper longum,Plantae,Magnoliophyta,Magnoliopsida,Piperales,Piperaceae,Piper , longum
+181,Lovage,Levisticum officinale,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Levisticum , officinale
+182,Ma Huang,Ephedra sinica ,Plantae,Magnoliophyta,Gnetopsida,Gnetales,Ephedraceae,Ephedra  , sinica 
+183,Maalati,Aganosma caryophyllata G.Don,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Aganosma , caryophyllata G.Don
+184,Mahoor,Aconitum novoluridum Munz,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aconitum , novoluridum Munz
+185,Makoy,Solanum nigrum,Plantae,Magnoliophyta,Dicotyledonae,Solanales,Solanaceae,Solanum , nigrum
+186,Malabar Nut,Justicia adhatoda,Plantae,Magnoliophyta,Magnoliopsida,Acanthales,Acanthaceae,Justicia , adhatoda
+187,Malkangiri / Staff Tree,Celastrus paniculatus,Plantae,Magnoliophyta,Magnoliopsida,Celastrales,Celastraceae,Celastrus , paniculatus
+188,Mallow,Malva sylvestris,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Malva , sylvestris
+189,Man orchid,Orchis mascula,Plantae,Magnoliophyta,Liliopsida,Orchidales,Orchidaceae,Orchis , mascula
+190,Mango,Mangifera indica,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Anacardiaceae,Mangifera , indica
+191,Manjistha, Rubia cordifolia,Plantae,Magnoliophyta,Magnoliopsida,Rubiales,Rubiaceae, Rubia ,  cordifolia
+192,Marigold,Tagetes erecta Linn.,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Tagetes , erecta Linn.
+193,Marsh mallow / White mallow,Althaea officinalis,Plantae,Magnoliophyta,Magnoliopsida,"	Malvales",Malvaceae,Althaea , officinalis
+194,Milk thistle / Holy thistle / Lady's thistle,Silybum marianum,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Silybum , marianum
+195,Moringa / Horseradish tree / Drumstick tree,Moringa oleifera,Plantae,Magnoliophyta,Magnoliopsida,Brassicales,Moringaceae,Moringa , oleifera
+196,Mugwort,Artemisia vulgaris,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Artemisia , vulgaris
+197,Mulberry,Morus spp.,Plantae,Magnoliophyta,Magnoliopsida,Rosales,Moraceae,Morus, spp.
+198,Myrobalan / Black myrobalan / harra / Haritaki,Terminalia chebula,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Combretaceae,Terminalia , chebula
+199,Myrrh,Commiphora myrrha,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Burseraceae,Commiphora , myrrha
+200,Nayantara / Sadafuli,Catharanthus roseus (L.) G. Don,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Catharanthus, roseus (L.) G. Don
+201,Neem / Indian-lilac / Margosa,Azadirachta indica,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Meliaceae,Azadirachta , indica
+202,Nut Grass / Nagarmotha,Cyperus rotundus Linn,Plantae,Magnoliophyta,Liliopsida,Cyperales,Cyperaceae,Cyperus , rotundus Linn
+203,Nutmeg,Myristica fragrans ,Plantae,Magnoliophyta,Magnoliopsida,Magnoliales,Myristicaceae,Myristica  , fragrans 
+204,Oats,Avena sativa,Plantae,Magnoliophyta,Liliopsida,Poales,Poaceae,Avena , sativa
+205,Okinawan spinach,Gynura bicolor,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Gynura , bicolor
+206,Olive,Olea europaea,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Oleaceae,Olea , europaea
+207,Oregano,Origanum vulgare,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Origanum , vulgare
+208,Osha,Ligusticum porteri,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Ligusticum , porteri
+209,Pacific yew,Taxus brevifolia,Plantae,Magnoliophyta,Magnoliopsida,Pinales,Taxaceae,Taxus , brevifolia
+210,Palasha / Flame of forest,Butea monosperma Kuntze,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Butea ,monosperma Kuntze
+211,Panax ginseng C.A. Mey,Panax ginseng,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Araliaceae,Panax , ginseng
+212,Pangar,Aesculus indica Colebr. ex Camb.,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Sapindaceae,Aesculus, indica Colebr. ex Camb.
+213,Papaya / Mamon,Carica papaya,Plantae,Magnoliophyta,Magnoliopsida,Brassicales,Caricaceae,Carica , papaya
+214,Parsley,Petroselinum crispum,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Petroselinum , crispum
+215,Partridgeberry,Mitchella repens,Plantae,Magnoliophyta,Magnoliopsida,Rubiales,Rubiaceae,Mitchella , repens
+216,Patha / Velvet Leaf Tree,Cissampelos pareira Linn,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Menispermaceae,Cissampelos,pareira Linn
+217,Patharchur,Plectranthus barbatus,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Plectranthus , barbatus
+218,Pennyroyal,Mentha pulegium,Plantae,Magnoliophyta,Liliopsida,Lamiales,Lamiaceae,Mentha , pulegium
+219,Peppermint,Mentha piperita L.,Plantae,Magnoliophyta,Liliopsida,Lamiales,Lamiaceae,Mentha  , piperita L.
+220,Perilla,Perilla frutescens var. crispa,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Perilla, frutescens var. crispa
+221,Periwinkle / Vinca,Catharanthus roseus,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Catharanthus , roseus
+222,Persian violet,Cyclamen persicum,Plantae,Magnoliophyta,Magnoliopsida,Primulales,Primulaceae,Cyclamen , persicum
+223,Persimmon,Diospyros kaki ,Plantae,Magnoliophyta,Magnoliopsida,Ebenales,Ebenaceae,Diospyros  , kaki 
+224,Peruk,Hydrocotyle asiatica Linn.,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Apiaceae,Hydrocotyle , asiatica Linn.
+225,Pineapple,Ananas comosus,Plantae,Magnoliophyta,Liliopsida,Bromeliales,Bromeliaceae,Ananas , comosus
+226,Pisa / Tudambo / Oriya / Galavaara / Tali,Actinodaphne hookeri Meissn.,Plantae,Magnoliophyta,Magnoliopsida,Laurales,Lauraceae,Actinodaphne , hookeri Meissn.
+227,Pokeweed,Phytolacca americana ,Plantae,Magnoliophyta,Magnoliopsida,Phytolaccales,Phytolaccaceae,Phytolacca  , americana 
+228,Pomegranate,Punica granatum L. ,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Lythraceae,Punica, granatum L. 
+229,Pongphai,Dactyloctenium sp.,Plantae,Magnoliophyta,Liliopsida,Poales,Poaceae,Dactyloctenium , spp.
+230,Poppy / Opium poppy,Papaver somniferum,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Papaveraceae,Papaver , somniferum
+231,Primrose oil,Oenothera biennis,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Onagraceae,Oenothera , biennis
+232,Pumpkin,Cucurbita pepo,Plantae,Magnoliophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Cucurbita , pepo
+233,Puncture vine,Tribulus terrestris,Plantae,Magnoliophyta,Magnoliopsida,Zygophyllales,Zygophyllaceae,Tribulus , terrestris
+234,Pyaj / Onion,Allium cepa Linn,Plantae,Magnoliophyta,Liliopsida,Asparagales,Amaryllidaceae,Allium , cepa Linn
+235,Quina,Cinchona spp.,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Rubiaceae,Cinchona , spp.
+236,Radish,Raphanus sativus,Plantae,Magnoliophyta,Magnoliopsida,Brassicales,Brassicaceae,Raphanus , sativus
+237,Raktachandana,Pterocarpus santalinus,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Pterocarpus , santalinus
+238,Ramtulsi,Ocimum gratissimum,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Ocimum , gratissimum
+239,Ratti / Rosary Pea,Abrus precatorius,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Abrus,precatorius
+240,Red clover,Trifolium pratense ,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Trifolium  , pratense 
+241,Rooibos,Aspalathus linearis,Plantae,Magnoliophyta,Rosopsida,Fabales,Fabaceae,Aspalathus , linearis
+242,Roselle,Hibiscus sabdariffa,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Hibiscus , sabdariffa
+243,Rosemary,Rosmarinus officinalis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Rosmarinus , officinalis
+244,Rosemary,Salvia rosmarinus,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Salvia , rosmarinus
+245,Rui,Calotropis gigantea (L.) W.T.Aiton,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Calotropis , gigantea (L.) W.T.Aiton
+246,Rye,Secale cereale,Plantae,Magnoliophyta,Liliopsida,Poales,Poaceae,Secale , cereale
+247,Safflower,Carthamus tinctorius,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Carthamus , tinctorius
+248,Sagargota / Bonduc nut / Yellow nicker,Guilandina bonduc L.,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Malvaceae,Guilandina , bonduc L.
+249,Sage / Garden sage,Salvia officinalis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Salvia , officinalis
+250,Salai Guggal / Indian Olibanum / Indian frankincense,Boswellia serrata,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Burseraceae,Boswellia , serrata
+251,Salpani / Shalparni / Shal Leafed Bush,Demodium gangeticum DC.,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Demodium , gangeticum DC.
+252,Sankarjata,Uraria picta Desv.,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Uraria , picta Desv.
+253,Sarpagandha,Rauwolfia serpentine Benth. Ex. Kurz.,Plantae,Magnoliophyta,Magnoliopsida,Rubiales,Apocynaceae,Rauwolfia , serpentine Benth. Ex. Kurz.
+254,Sassafras,Sassafras albidum,Plantae,Magnoliophyta,Magnoliopsida,Laurales,Lauraceae,Sassafras , albidum
+255,Saton / Chitvan / Dita,Alstonia scholaris (L.) R. Br,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Apocynaceae,Alstonia , scholaris (L.) R. Br
+256,Senna,Senna alexandrina Mill. ,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Senna , alexandrina Mill. 
+257,Shatavari,Asparagus racemosus,Plantae,Magnoliophyta,Liliopsida,Asparagales,Asparagaceae,Asparagus , racemosus
+258,Shepherd's purse,Capsella bursa-pastoris,Plantae,Magnoliophyta,Magnoliopsida,Brassicales,Brassicaceae,Capsella , bursa-pastoris
+259,Shirish / Siris Tree,Albizia lebbeck (Linn) Benth Pennel,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Albizia ,lebbeck (Linn) Benth Pennel
+260,Siberian Ginseng,Eleutherococcus senticosus,Plantae,Magnoliophyta,Magnoliopsida,Apiales,Araliaceae,Eleutherococcus , senticosus
+261,Sitaphal / Custard Apple,Annona reticulata L.,Plantae,Magnoliophyta,Magnoliopsida,Annonales,Annonaceae,Annona , reticulata L.
+262,Skullcap,Scutellaria lateriflora ,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Scutellaria  , lateriflora 
+263,Sorrel,Rumex acetosa,Plantae,Magnoliophyta,Magnoliopsida,Polygonales,Polygonaceae,Rumex , acetosa
+264,Spinach,Spinacia oleracea,Plantae,Magnoliophyta,Magnoliopsida,Caryophyllales,Chenopodiaceae,Spinacia , oleracea
+265,Spreading Hogweed / Punarnava,Boerhaavia diffusa Linn,Plantae,Magnoliophyta,Magnoliopsida,Nyctaginales,Nyctaginaceae,Boerhaavia, diffusa Linn
+266,Stavesacre,Delphinium staphisagria,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Delphinium , staphisagria
+267,Stevia,Stevia rebaudiana,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Stevia , rebaudiana
+268,Summer savory,Satureja hortensis,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Satureja , hortensis
+269,"Supari / Areca Nut / Betelnut	",Areca catechu Linn,Plantae,Magnoliophyta,Magnoliopsida,Arecales,Arecaceae,Areca, catechu Linn
+270,Sweet flag / Flagroot / Bach / Vaikhand,Acorus calamus,Plantae,Magnoliophyta,Liliopsida,Acorales,Acoraceae,Acorus , calamus
+271,Sweet potato,Ipomoea batatas,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Convolvulaceae,Ipomoea , batatas
+272,Sweet wormwood,Artemisia annua ,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Artemisia  , annua 
+273,Tamalpatra / Cinnamon Leaf / Tejpatta,Cinnamomum tamala,Plantae,Magnoliophyta,Magnoliopsida,Laurales,Lauraceae,Cinnamomum , tamala
+274,Tangerine,Citrus reticulata ,Plantae,Magnoliophyta,Magnoliopsida,Sapindales,Rutaceae,Citrus  , reticulata 
+275,Tarragon,Artemisia dracunculus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Artemisia , dracunculus
+276,Tea plant,Camellia sinensis,Plantae,Magnoliophyta,Magnoliopsida,Ericales,Theaceae,Camellia , sinensis
+277,Tea tree oil,Melaleuca alternifolia,Plantae,Magnoliophyta,Magnoliopsida,Myrtales,Myrtaceae,Melaleuca , alternifolia
+278,Thyme / Garden thyme,Thymus vulgaris,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Thymus , vulgaris
+279, Tinda,Praecitrullus fistulosus,Plantae,Magnoliophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Praecitrullus , fistulosus
+280,Tinshibi / Fever nut / Kuberakshi,Caesalpinia bonducella  (Linn.) Flem,Plantae,Magnoliophyta,Magnoliopsida,Fabales,Fabaceae,Caesalpinia , bonducella  (Linn.) Flem
+281,Tomato,Solanum lycopersicum,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Solanaceae,Solanum , lycopersicum
+282,Tongkat ali,Eurycoma longifolia,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Simaroubaceae,Eurycoma , longifolia
+283, Trayamana,Gentiana kurroo,Plantae,Magnoliophyta,Magnoliopsida,Gentianales,Gentianaceae,Gentiana ,kurroo
+284, Tulsi / Holy basil,Ocimum tenuiflorum,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Ocimum ,tenuiflorum
+285,Ulatkambal,Abroma agusta (L.) L.f.,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Sterculiaceae,Abroma , agusta (L.) L.f.
+286,Vai vidang,Embelia ribes,Plantae,Magnoliophyta,Magnoliopsida,Myrsinales,Myrsinaceae,Embelia , ribes
+287,Vajradanti,Barleria prionitis Linn. ,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Acanthaceae,Barleria , prionitis Linn. 
+288,Valerian / Common valerian / Garden heliotrope,Valeriana officinalis,Plantae,Magnoliophyta,Magnoliopsida,Dipsacales,Valerianaceae,Valeriana , officinalis
+289,Varun / Three Leafed Caper,Crataeva nurvala,Plantae,Magnoliophyta,Magnoliopsida,Malvales,Capparaceae,Crataeva , nurvala
+290,"Vatsnabh / Meetha Vish	/ Monks hood",Aconitum ferox,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Aconitum , ferox
+291,"Vridhadaru	/ Elephant Creeper",Argyreia speciosa Sweet,Plantae,Magnoliophyta,Magnoliopsida,Solanales,Convolvulaceae,Argyreia , speciosa Sweet
+292,Wheatgrass / Bread wheat / Canadian hard winter wheat / common wheat / wheat,Triticum aestivum,Plantae,Magnoliophyta,Magnoliopsida,Poales,Poaceae,Triticum , aestivum
+293,White turmeric,Curcuma zedoaria,Plantae,Magnoliophyta,Magnoliopsida,Zingiberales,Zingiberaceae,Curcuma , zedoaria
+294,Wild turmeric,Curcuma aromatica,Plantae,Magnoliophyta,Magnoliopsida,Zingiberales,Zingiberaceae,Curcuma , aromatica
+295,Wild yam,Dioscorea villosa,Plantae,Magnoliophyta,Magnoliopsida,Dioscoreales,Dioscoreaceae,Dioscorea , villosa
+296,Windflower,Anemone nemorosa,Plantae,Magnoliophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Anemone , nemorosa
+297,Winter savory,Satureja montana ,Plantae,Magnoliophyta,Magnoliopsida,Lamiales,Lamiaceae,Satureja  , montana 
+298, Yarrow,Achillea millefolium,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Achillea ,millefolium
+299,Yellow groundsel,Aster amellus,Plantae,Magnoliophyta,Magnoliopsida,Asterales,Asteraceae,Aster , amellus
+300,Yenam / Maroi nakuppi ,Allium hookeri,Plantae,Magnoliophyta,Magnoliopsida,Asparagales,Amaryllidaceae,Allium , hookeri
+301,Yerba santa,Eriodictyon californicum,Plantae,Magnoliophyta,Magnoliopsida,Boraginales,Boraginaceae,Eriodictyon ,californicum

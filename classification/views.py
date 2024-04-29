@@ -9,7 +9,6 @@ class classification_view(ListView):
 
     def get_queryset(self):
         query = self.request.GET.get("q", default=".")
-        object_list = med_class.objects.filter(Q(Plant_Name=query))
+        query0 = self.request.GET.get("p", default=".")
+        object_list = med_class.objects.filter(Q(Plant_Name__icontains=query), Q(Genus__icontains = query0))
         return object_list
-    
-    
