@@ -41,9 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
      'basic',
     'classification',
-    'genomes',
+    'phytochem',
+    'geno',
     'proteom',
-    'metabolites',
+  
     'pages',
     'transcriptom',
 ]

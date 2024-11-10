@@ -16,8 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from metabolites.views import metabolites_view
-from genomes.views import genomes_view
+from phytochem.views import phytochem_view
+from geno.views import geno_view
 from transcriptom.views import transcriptom_view
 from basic.views import basic_view
 from proteom.views import proteom_view
@@ -32,9 +32,9 @@ urlpatterns = [
     path('intro.html', intro_view, name="intro"),
     path('classification.html',classification_view.as_view(), name="classification"),
     path('basic.html', basic_view.as_view(), name="basic"),
-    path('genomes.html', genomes_view.as_view(), name="genomes"),
+    path('genomes.html', geno_view.as_view(), name="genomes"),
     path('proteome.html', proteom_view.as_view(), name="proteom"),
-    path('metabolites.html', metabolites_view.as_view(), name="metabolites"),
+   path('metabolites.html', phytochem_view.as_view(), name="metabolites"),
     path('transcriptom.html', transcriptom_view.as_view(), name="transcriptom"),
     path('aloevera.html', aloevera_view, name="aloevera"),
     path('amla.html', amla_view, name="amla"),
@@ -57,16 +57,16 @@ urlpatterns = [
     path('intro/',intro_view ,name='intro'),
     path('basic/',basic_view.as_view() ,name='basic'),
     path('basic/',classification_view.as_view() ,name='classification'),
-    path('basic/',genomes_view.as_view(),name='genomes'),
+    path('basic/',geno_view.as_view(),name='genomes'),
     path('basic/',proteom_view.as_view(),name='proteom'),
-    path('basic/',metabolites_view.as_view() ,name='metabolites'),
+    path('basic/',phytochem_view.as_view() ,name='metabolites'),
     path('basic/',transcriptom_view.as_view(),name='transcriptom'),
     path('home/intro.html',intro_view,name='intro'),
     path('home/home.html',home_view,name='home'),
     path('home/classification.html',classification_view.as_view(),name='classification'),
-    path('home/genomes.html',genomes_view.as_view(),name='genomes'),
+    path('home/genomes.html',geno_view.as_view(),name='genomes'),
     path('home/proteome.html',proteom_view.as_view(), name='proteom'),
-    path('home/metabolites.html',metabolites_view.as_view(),name='metabolites'),
+   path('home/metabolites.html',phytochem_view.as_view(),name='metabolites'),
     path('home/basic.html',basic_view.as_view(), name='basic'),
     path('home/transcriptom.html',transcriptom_view.as_view(), name='transcriptom'),
 

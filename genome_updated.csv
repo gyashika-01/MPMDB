@@ -1,0 +1,302 @@
+﻿Plant_Id,Plant_Name,Scientific_Name,Nucleotide,mRNA_Sequence,Genome_Sequence,NCBI_link
+1, Absinthium / Wormwood,Artemisia absinthium,159,5,154,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/72332/ 
+2, Aloevera / acibar / babosa / Barbados aloe / Ghee Kunwar / Aloes,Aloe barbadensis Miller,256,23,231,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/34199/ 
+3, Amla / Emblic / Indian-gooseberry,Phyllanthus emblica,176,26,149,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/296036/ 
+4, Ankol / Sage leaf alangium,Alangium salviifolium,39,0,39,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/616984/ 
+5, Arracacha,Arracacia xanthorrhiza,58,1,57,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/264540/ 
+6, Ashoka Tree,Saraca asoca,132,0,132,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1073321/ 
+7, Ashwangandha,Withania somnifera,"74,637",914,211,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/126910/ 
+8, Assam tea,Camellia sinensis var. assamica ,"11,870","10,840","1,030",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/261999/ 
+9,Aatki / Serpentwood,Rauvolfia serpentina (L.) Benth. Ex Kurz,"99,646","99,549",97,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4060/ 
+10,Aguru / Agarkasth / Eagle Wood,Aquilaria agallocha,"15,254",39,"15,215",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1472648/ 
+11,Akarkara / Pellitory,Anacyclus pyrethrum,29,0,29,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/159698/ 
+12,Alasyakampa,Acampe papillosa (Lindl.) Lindl.,17,0,17,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/339027/ 
+13,Ambrosia,Ambrosia artemisifolia,"9,480",167,"6,463",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4212/ 
+14,Australian / Ibogaine Bush / Iodine Bush,Tabernaemontana orientalis R.Br.,1,0,1,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/715769/ 
+15,Anantamool / Naruneendi / Nannari,Hemidesmus indicus,59,1,58,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/63476/ 
+16,Apamarga,Achyranthes bidentata Blume,"1,109",38,"1,071",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/384659/   
+17,Apple,Malus pumila,158,77,77,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/283210/ 
+18,Apricot,Prunus armeniaca,"1,15,098","15,294","1,516",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/36596/ 
+19,Aster,Aster tataricus,47,6,41,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/588669/ 
+20,Astragalus,Astragalus spp.,"8,171",374,"7,794",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/20400/ 
+21,Atees / Indian Ateeq,Aconitum heterophyllum,63,1,62,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/279769/
+22,Avocado,Persea americana,"17,952","16,845","1,103",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3435/ 
+23,Ayapaan,Ayapana triplinervis,35,4,31,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1090619/ 
+24,Babool / Indian Gum,Acacia arabica Willd,15,0,15,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/658885/ 
+25,Bahera,Terminalia bellirica,97,0,97,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/155021/ 
+26,Bala,Sida cordifolia,78,13,65,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/108362/ 
+27,Bamboo,Bambusa vulgaris,212,0,212,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/58168/ 
+28,Bamunhati,Clerodendrum indicum (L.) Ktze,124,0,124,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/680190/ 
+29, Banana,Musa paradisiaca,"50,362","49,598",761,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/89151/ 
+30, Basil / Sweet basil,Ocimum basilicum,"24,270","23,872",395,https://ncbi.nlm.nih.gov/datasets/taxonomy/39350/ 
+31,Barakanghi,Abutilon hirtum (Lam.) Sweet,2,0,2,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/2511949/ 
+32,Bael / Bilwa,Aegle Marmelos Corr. Ex. Roxb. Rutaceae,101,9,101,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/68527/ 
+33, Beetroot,Beta vulgaris,"5,96,649","1,23,193","4,64,213",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/161934/ 
+34, Broccoli,Brassica oleracea,"10,25,192","2,36,695","7,20,462",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3712/ 
+35,Bearberry / Kinnikinnick,Arctostaphylos uva-ursi,463,0,463,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/84009/ 
+36,Betony / Bishop's-wort,Betonica officinalis,164,1,163,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/53173/ 
+37,Bharangi / Blue glory,Rotheca serrata,56,0,56,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1158923/ 
+38,Bhelwa,Semecarpus anacardium,5,0,5,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/289767/ 
+39,Bhojpatra / cao pi hua / Himalayan birch,Betula utilis,80,0,80,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/228163/ 
+40,Bhringaraj,Eclipta prostrata,168,6,162,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/53719/ 
+41,Bidens,Bidens pilosa,192,8,184,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/42337/ 
+42,Bitter melon / balsam pear / bitter gourd / Karon Akhaba / Karela,Momordica charantia,"1,39,836","28,811","1,969",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3673/ 
+43,Black walnut,Juglans nigra ,288,92,196,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/16719/
+44,Blackcurrant,Ribes nigrum,"6,358","6,295",63,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/78511/
+45,Blue cohosh,Caulophyllum thalictroides,44,0,44,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/46963/ 
+46,Boneset,Eupatorium perfoliatum,44,0,44,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/102777/ 
+47,Brahmi / water hyssop,Bacopa monnieri,137,51,86,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/263974/ 
+48,Brihati,Solanum indicum Linn.,35,0,35,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/227722/ 
+49,Broom,Cytisus scoparius,"1,237",0,"1,237",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3835/ 
+50,Bryophyllum / Panfuti,Kalanchoe pinnata,67,21,46,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/80913/ 
+51, Calabash,Lagenaria siceraria,"49,143",8,"49,143",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3668/
+52, Cress,Lepidium sativum,367,305,62,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/33125/
+53,Calendula / Marigold,Calendula officinalis,153,21,132,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41496/ 
+54,California poppy,Eschscholzia californica,"17,096","16,795",301,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3467/ 
+55,Camphor,Cinnamomum camphora,665,258,407,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13429/ 
+56,Canada thistle,Cirsium arvense,386,178,208,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41550/
+57,Cardamom / Dalchini,Elettaria cardamomum,147,1,146,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/105181/ 
+58,Carrot,Daucus carota,"88,851","67,814","10,239",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4039/
+59,Celery,Apium graveolens,"3,491","2,586",904,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4045/
+60,Chamomile,Matricaria chamomilla,419,67,352,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/98504/
+61,Chickweed,Stellaria media ,323,167,154,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13274/
+62,Chicory,Cichorium intybus,"54,932","54,240",689,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13427/ 
+63,Chinese chastetree / Huang ping / Five-leaved Chaste Tree / Nirgundi,Vitex negundo,213,52,161,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/361442/ 
+64,Chirata / Kiratatikta,Swertia chirayita,140,2,138,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/137887/
+65,Chitrak / Ceylon leadwort,Plumbago zeylanica,"1,966","1,860",106,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/76149/
+66,Cinnamon / Ceylon cinnamon,Cinnamomum verum,153,0,153,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/128608/
+67,Clove,Syzygium aromaticum,73,0,73,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/219868/
+68,Cnidium,Cnidium monnieri ,98,4,94,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/94007/
+69,Columbine,Aquilegia vulgaris,175,6,169,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3451/
+70,Comfrey,Symphytum officinale,47,10,37,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/278672/
+71,Common milkweed,Asclepias syriaca,104,6,97,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/48545/
+72,Coriander / cilantro,Coriandrum sativum,191,37,146,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4047/
+73,Corn,Zea mays,"48,83,125","22,48,761","26,13,099",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4577/
+74,Cornelian cherry,Cornus mas,54,5,49,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4285/
+75,Cornflower,Centaurea cyanus,198,30,168,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41522/
+76,Corydalis,Corydalis yanhusuo,117,29,88,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/458692/
+77,Cosmos,Cosmos bipinnatus,46,0,45,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/51277/
+78,Costus / Kuth,Saussurea costus,109,5,104,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/324593/
+79,Cranberry,Vaccinium oxycoccos,65,0,65,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/516948/
+80,Cucumber,Cucumis sativus,"1,48,770","67,414","75,165",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3659/
+81,Culantro,Eryngium foetidum,58,0,58,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/477864/
+82,Dandelion,Taraxacum officinale,"42,406","41,463",942,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/50225/
+83,Daru haridra,Berberis aristata,92,0,92,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/659592/
+84,Devil's claw / Kalahari devil's claw,Harpagophytum procumbens,131,0,131,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/222879/
+85,Dhawaifool,Woodfordia fruticosa,38,0,38,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/141189/
+86,Dill,Anethum graveolens,171,5,166,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/40922/
+87,Echinacea / Coneflower, Echinacea purpurea ,153,45,108,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/53751/
+88,Epazote / Alpasotes / American wormseed / Jerusalem-tea,Dysphania ambrosioides,207,0,207,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/330163/
+89,Eucalyptus,Eucalyptus globulus,"29,601","29,042",556,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/34317/
+90,Eyebright,Euphrasia officinalis,7,0,7,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/290213/
+91,Fennel,Anethum foeniculum,246,13,232,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/2849586/
+92,Fenugreek,Trigonella foenum-graecum,144,24,108,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/78534/
+93,Feverfew,Tanacetum parthenium,73,24,49,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/127999/
+94, Flax seed,Linum usitatissimum,"3,80,597","2,89,559","91,036",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4006/
+95, Gray santolina,Santolina chamaecyparissus,82,0,82,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41644/
+96,Fly agaric,Amanita muscaria,"1,785",78,"1,707",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41956/
+97,Forskohlii,Coleus forskohlii ,"3,412","3,341",70,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41228/
+98,Fuller's teasel,Dipsacus fullonum,53,1,52,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/183561/
+99,Gamar,Gmelina  arborea  Roxb.,"19,963",2,92,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/201509/
+100,Garlic,Allium sativum,"1,02,894","1,02,065",826,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4682/
+101,Ghaypat,Agave americana L.,71,8,62,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39510/
+102,Giant Taro / Manka- Manakanda /  Mahacchada / Mahatpatra / Pankanca,Alocasia macrorrhizos,49,2,47,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4456/
+103,Giloy / Guduchi / Guluncha,Tinospora cordifolia,"5,764",264,"5,498",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/285590/
+104,Ginger,Zingiber officinale,"1,66,963","1,40,315",912,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/94328/
+105,Ginkgo / Maidenhair tree,Ginkgo biloba,"22,707","21,976",725,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3311/
+106,Globe Artichoke,Cynara cardunculus,"1,10,588","74,785","32,018",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4265/
+107,Globeflower,Trollius europaeus ,42,0,42,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/212754/
+108,Goat willow,Salix caprea,504,287,217,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/172267/
+109,Gojiberry / Wolfberry,Lycium barbarum,"70,733","52,255",828,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/112863/
+110,Golden root / Arctic root / Rose root,Rhodiola rosea,577,48,525,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/203015/
+111,Golden shower,Cassia fistula,123,0,123,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/53852/
+112,Goldenseal,Hydrastis canadensis,160,15,145,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13569/
+113,Gotu kola / Asiatic pennywort / Sheep-rot / Thankuni / Mandukparni,Centella asiatica,"4,803","4,550",253,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/48106/
+114,Grape,Vitis vinifera ,"10,63,613","5,49,894","3,12,460",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/29760/
+115,Great Burdock,Arctium lappa,545,0,545,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/124778/
+116,Griffith's Anise / Chinese Star Anise,Illicium verum,557,5,552,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4217/
+117,Guggal Dhoop,Commiphora wightii,152,84,68,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/246360/
+118,Guggulu / Indian Bdelium,Commiphora mukul Engl,2,0,2,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/2067815/
+119,Gurmar / Madhunashini,Gymnema sylvestre,368,203,164,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4068/
+120,Hair amaranth,Amaranthus caudatus,110,3,107,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3567/
+121,Happy tree,Camptotheca acuminata,"1,20,694",109,"1,20,585",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/16922/
+122,Hargoza,Acanthus illicifolius L.,481,21,460,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/328098/
+123,Harikokthong,Artocarpus lacucha,128,1,127,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/382341/
+124,Hawthorn,Cratageus monogyna,225,19,206,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/140997/
+125,Hazelnut,Corylus avellana ,"77,936","73,336","1,424",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13451/
+126,Hemlock,Conium maculatum,339,7,332,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13447/
+127,Himalayan white lily,Lilium polyphyllum,3,0,3,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1948900/
+128,Hop bush,Dodonaea viscosa,275,0,275,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/151065/
+129,Horse chestnut,Aesculus hippocastanum ,136,1,135,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/43364/
+130,Horsetail,Equisetum arvense,222,12,210,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3258/
+131,Huang qi,Astragalus membranaceus ,459,90,369,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/649199/
+132,Hyssop,Dracocephalum officinale,44,7,37,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39324/
+133,Indian bael,Aegle marmelos,110,9,101,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/68527/
+134,Indian Sandalwood / White sandalwood / Chandana,Santalum album,782,441,339,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/35974/
+135,Ipecac,Carapichea ipecacuanha,317,32,285,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/77880/
+136,Irish moss,Chondrus crispus,"16,015","13,744","2,270",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/2769/
+137,Isabgol,Plantago ovata,246,86,155,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/185002/
+138,Ivy,Hedera helix,798,211,585,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4052/
+139,Jamun / Jaman / Jambolan / Java-plum,Syzygium cumini,113,1,112,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/260142/
+140,Jasmine / Common Jasmine,Jasminum officinale,3,0,3,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/126433/
+141,Jatamansi,Nardostachys jatamansi,122,4,118,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/179860/
+142,Javanese turmeric / Temu lawak,Curcuma xanthorrhiza,83,3,80,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/136222/
+143,Jharberi / Chanibor / Chanya-bor,Ziziphus nummularia (Burm.f.) Wight & Arn.,"3,564","3,534",30,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/498071/
+144,Jiaogulan,Gynostemma pentaphyllum,306,43,262,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/182084/
+145,Jimikand / Elephant yam,Amorphophallus paeoniifolius var. campanulatus,11,9,2,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/203634/
+146,John's wort,Hypericum perforatum,640,169,322,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/65561/
+147,Jojoba / Goatnut,Simmondsia chinensis,"79,664",400,120,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3999/
+148, Kaffir lime,Citrus hystrix,45,43,2,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/170989/
+149,Kadirkasth / Cutch Tree,Acacia catechu Willd,36,0,36,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/138017/
+150,Kaju,Anacardium occidentale L.,113,33,80,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/171929/
+151,Kakrai,Abutilon pannosum (Forst.) Schlect.,14,0,14,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1917650/
+152,Kalijhant,Adiantum philippense L.,145,0,145,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1073793/
+153,kaner,Nerium oleander,285,16,269,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/63479/
+154,Kanghi / Kakahi,Abutilon indicum (L.) Sweet,67,0,67,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/318060/
+155,Kantikari / Eggplant / Yellow-fruit nightshade / Aubergine,Solanum virginianum,"1,28,399","1,00,743","27,652",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/223891/
+156,Karanj seed,Pongamia pinnata,347,52,294,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/56065/
+157,Karvanda,Carissa spinarum L.,41,0,41,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/429256/
+158,Kauch beej,Mucuna pruriens,"15,871",10,"15,860",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/157652/
+159,Kava,Piper methysticum,70,23,46,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/130404/
+160,Kesar / Saffron,Crocus sativus,"7,488","7,042",446,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/82528/
+161,Ketaki / Crepe Ginger,Hellenia speciosa,57,5,52,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49577/
+162,Kirayte,Andrographis paniculata (Burm.f.) wall.,"47,321","40,754",449,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/175694/
+163,Kokum,Garcinia indica,43,0,43,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/547469/
+164,Konjac / Devil's-tongue / Elephant-yam / Konnyaku / mo-yu,Amorphophallus konjac,210,13,197,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/78372/
+165,Korean Mint / Purple giant hyssop,Agastache rugosa,363,276,87,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39271/
+166,Kulanjan / Greater galangal / Siamese-ginger,Alpinia galanga,190,1,189,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/94327/
+167,Kurchi / Nagalkudo / Tellicherry bark,Holarrhena antidysenterica,76,5,71,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/69381/
+168,Kuthap ,Clerodendrum chinense,11,0,11,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/54464/
+169,Kutki,Picrorhiza kurrooa,"35,084","34,992",92,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/195120/
+170,Lady's mantle,Alchemilla vulgaris,13,0,13,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49855/
+171,Lai peruk,Hydrocotyle sibthorpioides,30,1,28,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4049/
+172,Latjira,Achyranthes aspera ,180,23,157,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/240005/
+173,Lavender,Lavandula angustifolia,251,105,144,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39329/
+174,Lemon,Citrus limon,"2,669","1,598",240,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/2708/
+175,Lemon Balm / Common balm / Sweet balm,Melissa officinalis,80,13,67,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39338/
+176, Lemongrass,Cymbopogon citratus,106,0,106,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/66014/
+177,Lemon verbena,Aloysia citrodora,37,0,37,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/925377/
+178,Lettuce,Lactuca sativa,"2,05,544","1,81,389","2,786",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4236/
+179,Licorice / Mulethi,Glycyrrhiza glabra,618,202,214,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49827/
+180,Long pepper / Pippali,Piper longum,113,63,50,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49511/
+181,Lovage,Levisticum officinale,32,0,32,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/48042/
+182,Ma Huang,Ephedra sinica ,290,23,267,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/33152/
+183,Madhu Malati / Rangoon Creeper / Burma Creeper / Chinese Honeysuckle / Parijat,Combretum indicum,116,0,116,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3956/
+184,Mahoor,Aconitum novoluridum ,13,0,13,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1905856/
+185,Makoy,Solanum nigrum,586,192,394,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4112/
+186,Malabar Nut,Justicia adhatoda,143,0,143,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/141317/ 
+187,Malkangiri / Staff Tree,Celastrus paniculatus,80,0,80,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/994668/
+188,Mallow,Malva sylvestris,102,0,102,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/145754/
+189,Man orchid,Orchis mascula,39,0,39,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/59338/
+190,Mango,Mangifera indica,"1,49,623","54,307","1,904",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/29780/
+191,Manjistha, Rubia cordifolia,286,46,240,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/339321/
+192,Marigold,Tagetes erecta Linn.,338,66,271,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13708/
+193,Marsh mallow / White mallow,Althaea officinalis,76,18,58,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/145745/
+194,Milk thistle / Holy thistle / Lady's thistle,Silybum marianum,212,66,146,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/92921/
+195,Moringa / Horseradish tree / Drumstick tree,Moringa oleifera,346,44,301,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3735/
+196,Mugwort,Artemisia vulgaris,272,17,255,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4220/
+197,Mulberry,Morus spp.,"1,04,042","36,758","65,037",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3497/
+198,Myrobalan / Black myrobalan / harra / Haritaki,Terminalia chebula,165,0,165,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/155022/
+199,Myrrh,Commiphora myrrha,9,0,9,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/318982/
+200,Nayantara / Sadafuli,Catharanthus roseus (L.) G. Don,"1,08,760","1,07,317","1,440",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4058/
+201,Neem / Indian-lilac / Margosa,Azadirachta indica,"1,261","1,091",170,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/124943/
+202,Nut Grass / Nagarmotha,Cyperus rotundus Linn,636,4,632,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/512623/
+203,Nutmeg,Myristica fragrans ,122,7,115,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/51089/
+204,Oats,Avena sativa,"80,045","25,598","4,249",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4498/
+205,Okinawan spinach,Gynura bicolor,58,34,24,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/714476/
+206,Olive,Olea europaea,"3,80,440","60,700","1,53,238",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4146/
+207,Oregano,Origanum vulgare,363,22,341,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39352/
+208,Osha,Ligusticum porteri,2,0,2,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/54719/
+209,Pacific yew,Taxus brevifolia,75,5,70,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/46220/
+210,Palasha / Flame of forest / Bengal kino,Butea monosperma ,73,0,73,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/56060/
+211,Panax ginseng C.A. Mey,Panax ginseng,"1,05,850","1,00,703","5,143",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4054/
+212,Pangar,Aesculus indica ,44,0,44,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/531823/
+213,Papaya / Mamon,Carica papaya,"1,80,904","1,03,884","73,213",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3649/
+214,Parsley,Petroselinum crispum,506,110,394,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4043/
+215,Partridgeberry,Mitchella repens,130,0,130,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/45181/
+216,Patha / Velvet Leaf Tree,Cissampelos pareira Linn,88,0,88,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/108409/
+217,Patharchur,Plectranthus barbatus,"3,412","3,341",70,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41228/
+218,Pennyroyal,Mentha pulegium,61,2,59,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/294739/
+219,Peppermint,Mentha piperita ,"1,672","1,404",268,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/34256/
+220,Perilla / Beefsteak-mint,Perilla frutescens var. crispa,"6,990","5,606","1,384",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/48386/
+221,Periwinkle / Vinca / Madagascar periwinkle,Catharanthus roseus,"1,08,760","1,07,317","1,440",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4058/
+222,Persian violet,Cyclamen persicum,"2,160","2,108",52,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/87530/
+223,Persimmon,Diospyros kaki ,"15,921","15,086",832,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/35925/
+224,Peruk,Centella asiatica,"4,803","4,550",253,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/48106/
+225,Pineapple,Ananas comosus,"77,544","60,705","8,567",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4615/
+226,Pisa / Tudambo / Oriya / Galavaara / Tali,Actinodaphne hookeri ,3,0,3,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1941424/ 
+227,Pokeweed / American Pokeweed,Phytolacca americana ,"1,021",798,223,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3527/ 
+228,Pomegranate,Punica granatum ,"1,29,609","49,029","8,556",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/22663/
+229,Pungphai / Egyptian crowfoot grass / Duck grass,Dactyloctenium aegyptium,148,0,148,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/270102/
+230,Poppy / Opium poppy,Papaver somniferum,"1,85,163","36,087","1,05,347",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3469/
+231,Primrose oil,Oenothera biennis,186,26,160,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3942/
+232,Pumpkin,Cucurbita pepo,"75,869","43,619","26,834",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3663/
+233,Puncture vine,Tribulus terrestris,216,0,216,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/210369/
+234,Pyaj / Onion,Allium cepa Linn,"6,09,533","1,01,359","11,888",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4679/
+235,Quina / Chard ,Chenopodium quinoa,"79,580","63,547","4,287",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/63459/
+236,Radish,Raphanus sativus,"3,89,688","2,44,463","95,389",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3726/
+237,Raktachandana,Pterocarpus santalinus,156,0,156,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1071199/
+238,Ramtulsi,Ocimum gratissimum,130,16,114,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/204144/ 
+239,Ratti / Rosary Pea,Abrus precatorius,"44,866","40,065",239,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3816/
+240,Red clover,Trifolium pratense ,"3,04,106","86,129","1,57,380",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/57577/
+241,Reed / Giant reed ,Arundo donax,"2,84,176",7,565,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/35708/
+241,Rooibos,Aspalathus linearis,116,0,116,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/155124/
+242,Roselle,Hibiscus sabdariffa,"4,367",31,"4,336",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/183260/
+244,Rosemary,Salvia rosmarinus,175,25,150,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/39367/
+245,Rui,Calotropis gigantea (L.) W.T.Aiton,46,16,30,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4066/
+246,Rye,Secale cereale,"67,616","9,590","12,589",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4550/
+247,Safflower,Carthamus tinctorius,"43,143","41,757","1,386",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4222/
+248,Sagargota / Bonduc nut / Yellow nicker,Guilandina bonduc ,129,7,122,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/191881/
+249,Sage / Garden sage,Salvia officinalis,917,75,842,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/38868/
+250,Salai Guggal / Indian Olibanum / Indian frankincense,Boswellia serrata,32,5,27,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/613112/
+251,Salpani / Shalparni / Shal Leafed Bush,Pleurolobus gangeticus,104,0,104,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/670324/
+252,Sankarjata,Uraria picta ,34,0,34,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1034059/
+253,Sarpagandha / Serpentwood,Rauvolfia serpentina,"99,646","99,549",97,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4060/
+254,Sassafras,Sassafras albidum,76,2,74,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/46945/
+255,Saton / Chitvan / Dita / Milky pine,Alstonia scholaris ,150,9,141,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/52822/
+256,Senna,Senna alexandrina ,93,10,80,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/72402/
+257,Shatavari,Asparagus racemosus,175,102,73,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/272846/
+258,Shepherd's purse,Capsella bursa-pastoris,"4,454",73,"4,381",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3719/
+259,Shirish / Siris Tree,Albizia lebbeck ,63,0,63,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/371650/
+260,Siberian Ginseng,Eleutherococcus senticosus,"3,836","3,376",460,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/82096/
+261,Sitaphal / Custard Apple,Annona reticulata ,35,0,35,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/301862/
+262,Skullcap,Scutellaria lateriflora ,48,6,42,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/233893/
+263,Sorrel,Rumex acetosa,"32,368",11,370,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/41241/
+264,Spinach,Spinacia oleracea,"3,57,478","41,221","1,08,505",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/3562/
+265,Spreading Hogweed / Punarnava,Boerhavia diffusa,132,67,65,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/930814/
+266,Stavesacre,Delphinium staphisagria,15,0,15,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/104301/
+267,Stevia,Stevia rebaudiana,"36,920","5,678","1,546",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/55670/
+268,Summer savory,Satureja hortensis,43,2,41,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49987/ 
+269,"Supari / Areca Nut / Betelnut	",Areca catechu ,174,4,169,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/184783/
+270,Sweet flag / Flagroot / Bach / Vaikhand,Acorus calamus,630,260,370,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4465/
+271,Sweet potato,Ipomoea batatas,"4,47,742","91,904","26,734",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4120/
+272,Sweet wormwood,Artemisia annua ,"3,78,899","3,61,492","17,407",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/35608/
+273,Tamalpatra / Cinnamon Leaf / Tejpatta,Cinnamomum tamala,56,0,56,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/397098/
+274,Tangerine / Mandarin orange,Citrus reticulata ,"56,890","56,292",598,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/85571/ 
+275,Tarragon,Artemisia dracunculus,162,0,162,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/72341/
+276,Tea plant / Black tea,Camellia sinensis,"5,18,504","2,81,976","21,370",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4442/
+277,Tea tree oil,Melaleuca alternifolia,540,494,46,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/164405/
+278,Thyme / Garden thyme,Thymus vulgaris,149,46,103,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49992/
+279, Tinda,Praecitrullus fistulosus,37,0,37,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/252558/
+280,Tinshibi / Fever nut / Kuberakshi / Yellow nicker,Caesalpinia bonducella  ,129,7,122,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/191881/
+281,Tomato,Solanum lycopersicum,"8,00,847","3,56,438","4,35,820",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4081/
+282,Tongkat ali,Eurycoma longifolia,118,46,71,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/458531/
+283, Trayamana,Gentiana kurroo,18,0,18,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1523243/ 
+284, Tulsi / Holy basil,Ocimum tenuiflorum,352,148,198,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/204149/
+285,Utangan / Vellurana,Blepharis edulis ,9,0,9,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/328124/
+286,Vai vidang,Embelia ribes,120,0,120,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/459629/
+287,Vajradanti,Barleria prionitis ,28,0,28,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4189/
+288,Valerian / Common valerian / Garden heliotrope,Valeriana officinalis,295,175,120,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/19953/
+289,Varun / Three Leafed Caper,Crataeva nurvala,4,0,4,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/1149812/
+290,"Vatsnabh / Meetha Vish	/ Monks hood",Aconitum ferox,22,0,22,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/50866/
+291,Vrishchikali / Spreading hogweed-erect,Boerhavia Erecta,21,0,21,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/363203/
+292,Wheatgrass / Bread wheat / Canadian hard winter wheat / common wheat / wheat,Triticum aestivum,"28,23,864","21,27,091","1,86,310",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4565/
+293,White turmeric,Curcuma zedoaria,155,3,152,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/136224/
+294,Wild turmeric,Curcuma aromatica,239,7,232,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/136209/
+295,Wild yam,Dioscorea villosa,60,7,53,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/330167/
+296,Windflower,Anemone nemorosa,60,10,50,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/37489/
+297,Winter savory,Satureja montana ,29,0,29,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/49988/
+298, Yarrow,Achillea millefolium,"1,033",12,"1,020",https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13329/
+299,Yellow groundsel / Italian starwort,Aster amellus,643,0,643,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/72897/
+300,Yenam / Maroi nakuppi ,Allium hookeri,81,2,79,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/105303/
+301,Yerba santa,Eriodictyon californicum,14,0,14,https://www.ncbi.nlm.nih.gov/datasets/taxonomy/4132/

@@ -58,3 +58,4 @@ def tulsi_view(request, *args, **kwargs):
 
 def turmeric_view(request, *args, **kwargs):
     return render (request, "turmeric.html", {})
+
