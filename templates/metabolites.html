@@ -16,6 +16,37 @@
     <!-- Fontawesome Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
   </head>
+  <script>
+    function searchPlant() {
+        let query = document.getElementById('searchBox').value.trim();
+        if (query.length === 0) {
+            document.getElementById('results').innerHTML = "<p>Please enter a plant name.</p>";
+            return;
+        }
+
+        fetch(`/search/?query=${query}`)
+            .then(response => response.json())
+            .then(data => {
+                let resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = "";
+
+                if (data.results.length > 0) {
+                    data.results.forEach(plant => {
+                        resultsDiv.innerHTML += `
+                            <div class="plant-card">
+                                <h3>${plant.Plant_Name} (${plant.Scientific_Name})</h3>
+                                <p><strong>Nucleotide:</strong> ${plant.Nucleotide}</p>
+                                <p><a href="${plant.NCBI_link}" target="_blank">View on NCBI</a></p>
+                            </div>
+                        `;
+                    });
+                } else {
+                    resultsDiv.innerHTML = "<p>No results found.</p>";
+                }
+            })
+            .catch(error => console.error("Error fetching data:", error));
+    }
+</script>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
@@ -373,7 +404,7 @@ table {
         color: floralwhite;
         word-wrap: break-word;
         text-align:center;
-        text-width: 10px;
+        /*text-width: 10px;*/
         border: 2px solid rgb(14, 13, 13);
         font-size: 20px;
     }
@@ -430,23 +461,38 @@ form input:focus {
     border: 2px solid darkslategray;
 }
 
+/*Search page*/
 
+        input {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .plant-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px auto;
+            width: 60%;
+            background-color: #f9f9f9;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
 
     </style>
     
     <body>
-        <div class="hero">
-          <img style="height: 100px; width: 87px; border-radius:5px;padding:-0.5rem;left:1rem;top:-0.5rem; position: relative;aspect-ratio: 1 / 1; " src="{% static 'images/JIIT.png' %}">
-          <br>
-        <div class="hero-1 hero-cta">
-                <h1> MPMDB- Medicinal Plant Metabolite Database </h1>
-                    <h2><marquee width="100%" direction="left" height="100px" ><u>A comprehensive Medicinal Plant Metabolites Database</u>
-                    </marquee></h2>
-         </div>
-         
-            <img style="height: 100px; width: 87px; border-radius:5px; padding: -0.5rem;top:-0.5rem; right:1rem; position:relative; aspect-ratio: 1 / 1;
-            " src="{% static 'images/GBU.png' %}">
-      </div>
+      <div class="hero">
+        <img style="height: 100px; width: 97px; border-radius:5px;padding:-0.5rem;left:1rem;top:-0.5rem; position: relative;aspect-ratio: 1 / 1; " src="{% static 'images/JIIT.png' %}">
+        <br>
+      <div class="hero-1 hero-cta">
+              <h1> MPMDB- Medicinal Plant Metabolite Database </h1>
+                  <h2><marquee width="100%" direction="left" height="100px" ><u>A comprehensive Medicinal Plant Metabolites Database</u>
+                  </marquee></h2>
+       </div>
+       
+          <img style="height: 100px; width:97px; border-radius:5px; padding: -0.5rem;top:-0.5rem; right:1rem; position:relative; aspect-ratio: 1 / 1;
+          " src="{% static 'images/GBU.jpg' %}">
+    </div>
 
         <main>
           <nav class="navbar">
@@ -1002,55 +1048,63 @@ form input:focus {
         <input type="submit" value="Search" class="submit">
     </span>
 </form>
-             
-  
+            
 
   <div class="tableContainer">
-    <table border="1" class="thelongone">
-        <tr>
-            <th> Plant Name </th>
-            <th> Scientific Name</th>
-            <th>Metabolites</th>
-            <th>Activity Count</th>
-            <th>Formula</th>
-            <th>IUPAC Name</th>
-            <th>SMILES</th>
-            <th>Plant Part</th>
-            <th>Molecular Mass(g/mol)</th>
-            <th>Monoisotopic Mass(g/mol)</th>
-            <th>LogP</th>
-            <th>Hydrogen Acceptors</th>
-            <th>Hydrogen Donors</th>
-            <th>Rotatable Bond Count</th>
-            <th>Polar Surface Area(A^2)</th>
-            <th>Structure</th>
-            <th>References</th>
-        </tr>
-        <!-- {% for data in object_list %} -->
-        <tr>
-            <td>{{data.Plant_Name}}</td>
-            <td>{{data.Scientific_Name}}</td>
-            <td>{{data.Phytochemicals}}</td>
-            <td>{{data.Activity_Count}}</td>
-            <td>{{data.Formula}}</td>
-            <td>{{data.IUPAC_Name}}</td>
-            <td>{{data.SMILES}}</td>
-            <td>{{data.Plant_Part}}</td>
-            <td>{{data.Molecular_Mass}}</td>
-            <td>{{data.Monoisotopic_Mass}}</td>
-            <td>{{data.LogP}}</td>
-            <td>{{data.Hydrogen_Acceptors}}</td>    
-            <td>{{data.Hydrogen_Donors}}</td>
-            <td>{{data.Rotatable_Bond_Count}}</td>
-            <td>{{data.Polar_Surface_Area}}</td>      
-            <td><a href='{{ data.Structure}}'>Structure</a></td>
-            <td><a href='{{ data.References}}'>References</a></td>
-        </tr>
-        <!-- {% endfor %} -->
+    <table border="1" class="thelongone" id="resultsTable" style="display: none;">  
+        <thead id="tableHeader" style="display: none;">
+            <tr>
+              <th> Plant Name </th>
+              <th> Scientific Name</th>
+              <th>Metabolites</th>
+              <th>Activity Count</th>
+              <th>Formula</th>
+              <th>IUPAC Name</th>
+              <th>SMILES</th>
+              <th>Plant Part</th>
+              <th>Molecular Mass(g/mol)</th>
+              <th>Monoisotopic Mass(g/mol)</th>
+              <th>LogP</th>
+              <th>Hydrogen Acceptors</th>
+              <th>Hydrogen Donors</th>
+              <th>Rotatable Bond Count</th>
+              <th>Polar Surface Area(A^2)</th>
+              <th>Structure</th>
+              <th>References</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            {% for data in object_list %}
+            <tr>
+              <td>{{data.Plant_Name}}</td>
+              <td>{{data.Scientific_Name}}</td>
+              <td>{{data.Phytochemicals}}</td>
+              <td>{{data.Activity_Count}}</td>
+              <td>{{data.Formula}}</td>
+              <td>{{data.IUPAC_Name}}</td>
+              <td>{{data.SMILES}}</td>
+              <td>{{data.Plant_Part}}</td>
+              <td>{{data.Molecular_Mass}}</td>
+              <td>{{data.Monoisotopic_Mass}}</td>
+              <td>{{data.LogP}}</td>
+              <td>{{data.Hydrogen_Acceptors}}</td>    
+              <td>{{data.Hydrogen_Donors}}</td>
+              <td>{{data.Rotatable_Bond_Count}}</td>
+              <td>{{data.Polar_Surface_Area}}</td>      
+              <td><a href='{{ data.Structure}}'>Structure</a></td>
+              <td><a href='{{ data.References}}'>References</a></td>
+            </tr>
+            {% empty %}
+            <tr id="noResultsRow" style="display: none;">
+                <td colspan="6" style="text-align: center;">No results found</td>
+            </tr>
+            {% endfor %}
+        </tbody>
     </table>
   </div>
-  <br><br>
-  
+    <br>
+
+
   <!--
   <div class="tableContainer">
     <table class="thelist">
@@ -2424,7 +2478,24 @@ form input:focus {
     </div>
   </footer>
 
-  <script>// Change option selected
+  <script>
+     document.addEventListener("DOMContentLoaded", function () {
+        let table = document.getElementById("resultsTable");
+        let header = document.getElementById("tableHeader");
+        let body = document.getElementById("tableBody");
+        let rows = body.getElementsByTagName("tr");
+
+        // Check if there are search results (excluding 'No results found' row)
+        let hasResults = [...rows].some(row => row.id !== "noResultsRow");
+
+        if (hasResults) {
+            table.style.display = "table"; // Show the table
+            header.style.display = "table-header-group"; // Show the header
+        }
+    });
+  
+  
+  // Change option selected
     const label = document.querySelector('.dropdown__filter-selected')
     const options = Array.from(document.querySelectorAll('.dropdown__select-option'))
     
